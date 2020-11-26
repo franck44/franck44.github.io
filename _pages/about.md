@@ -9,18 +9,19 @@ redirect_from:
 ---
 
 I am a computer scientist with interest in **formal methods**,  more specifically automated verification techniques such as software verification and model-checking, static analysis. 
-My background is **theoretical computer science** but I have also developed some software (static analysis tools), Scala packages (SMT-solvers, finite automata), Dafny verified programs.
+I have a strong expertise in **modelling and verification of concurrent (distributed) systems**.
+I have contributed several important results in the theoretical foundations of verification of concurrent systems and also developed software analysis tools (static analysis, model-checking), Scala packages (SMT-solvers, finite automata), and recently Dafny-verified programs.
 
 Experience
 =========
 
 I am currently work at ConsenSys Software R&D as an Applied Researcher, and the main projects I am involved in are:
 
-- **formal specification and verification of the Eth2.0 Phase 0 specification (Beacon chain)**. We use the verification-aware programming language **Dafny** to formally (i.e. rigorously and mathematically) verify the  Eth2 specification.
+- **formal specification and verification of the Eth2.0 Phase 0 specification (Beacon chain)**. We use the verification-aware programming language **Dafny** to formally (i.e. rigorously and mathematically) [verify the  Eth2 specification](https://github.com/ConsenSys/eth2.0-dafny).
 
-- **formal verification of the Deposit Smart Contract** algorithms.
+- **formal verification of the Deposit Smart Contract** algorithms. I have developed the [first fully mechanised correctness proof of the incremental Merkle tree algorithm in Dafny](https://github.com/ConsenSys/deposit-sc-dafny).
 
-Before joining ConsenSys, I worked as a research scientist/academic for 25 years, at the French National Centre for Scientific Research (CNRS, France), National ICT Australia (NICTA, Sydney AU) and Macquarie University (Sydney AU). 
+Before joining ConsenSys, I worked as a research scientist/academic for 25 years, at the French National Centre for Scientific Research (CNRS, France), National ICT Australia (NICTA now DATA61, Sydney AU) and Macquarie University (Sydney AU). 
 
 Professional Memberships
 ======
@@ -31,7 +32,4 @@ I am a **Marie Curie Fellow**, was awarded a Marie Curie Fellowship (an individu
 Publications
 =====
 I have published more than 90 research papers in peer-reviewed journals & conferences, 1 US patent and several software packages.
-I am serving regularly on program committees of top-tier conferences.
-
-
-
+I am serving regularly on program committees of top-tier conferences including:
