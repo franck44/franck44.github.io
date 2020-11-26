@@ -18,7 +18,7 @@ New one:
 
 yet another one:
 
- <script src="https://bibbase.org/show?bib=https://brekelma.github.io/rob.bib&jsonp=1"></script>
+ <script src="https://bibbase.org/show?bib=https://franck44.github.io/franck-pubs.bib&jsonp=1"></script>
 
 
 {% if author.googlescholar %}
