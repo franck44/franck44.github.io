@@ -1,0 +1,2130 @@
+@inproceedings{mod-17,
+  author    = {Franck Cassez and
+               Pablo Gonz{\'{a}}lez de Aledo and
+               Peter Gj{\o}l Jensen},
+  title     = {{WUPPAAL:} Computation of Worst-Case Execution-Time for Binary Programs
+               with {UPPAAL}},
+  booktitle = {Models, Algorithms, Logics and Tools - Essays Dedicated to Kim Guldstrand
+               Larsen on the Occasion of His 60th Birthday},
+  pages     = {560--577},
+  year      = {2017},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {10460},
+  publisher = {Springer},  url       = {https://doi.org/10.1007/978-3-319-63121-9_28},
+  doi       = {10.1007/978-3-319-63121-9_28},
+  timestamp = {Tue, 22 Aug 2017 08:17:15 +0200},
+  biburl    = {http://dblp.uni-trier.de/rec/bib/conf/birthday/CassezAJ17},
+  bibsource = {dblp computer science bibliography, http://dblp.org},
+
+  urlpaper = {papers/kim-fest-17.pdf},
+  abstract = {We address the problem of computing the worst-case execu- tion-time (WCET) of binary programs using a real-time model-checker. 
+  In our previous work, we introduced a fully automated and modular methodology to build a model (network of timed automata) that combined a binary 
+  program and the hardware to run the program on. 
+  Computing the WCET amounts to finding the longest path time-wise in this model, which can be done using a real-time model checker like Uppaal. 
+  In this work, we generalise the previous approach and we define a generic framework to support arbitrary binary language and hardware.
+We have implemented our new approach in an extended version of Uppaal, called Wuppaal. 
+Experimental results using some standard benchmarks suite for WCET computation (from Malardalen University) 
+show that our technique is practical and promising.}
+}
+
+
+
+
+
+@inproceedings{rp-17,
+  author    = {Franck Cassez and
+               Peter Gj{\o}l Jensen and
+               Kim Guldstrand Larsen},
+  title     = {Refinement of Trace Abstraction for Real-Time Programs},
+  booktitle = {Reachability Problems - 11th International Workshop, {RP} 2017, London,
+               UK, September 7-9, 2017, Proceedings},
+  volume    = {10506},
+  pages     = {42--58},
+  year      = {2017},
+  publisher = {Springer},
+  url       = {https://doi.org/10.1007/978-3-319-67089-8_4},
+  doi       = {10.1007/978-3-319-67089-8_4},
+  timestamp = {Wed, 30 Aug 2017 15:59:47 +0200},
+  isbn      = {978-3-319-67088-1},
+  biburl    = {http://dblp.uni-trier.de/rec/bib/conf/rp/CassezJL17},
+  bibsource = {dblp computer science bibliography, http://dblp.org},
+  urlpaper = {papers/rp-17.pdf},
+  abstract = {Real-time programs are made of instructions that can perform assignements to discrete and real-valued variables. 
+  They are general enough to capture interesting classes of timed systems such as timed automata, stopwatch automata, time(d) Petri nets and hybrid automata. 
+  We propose a semi-algorithm using refinement of trace abstractions to solve the reachability verification problem for real-time programs. 
+  We report on the implementation of our algorithm and we show that our new method provides solutions to problems which are unsolvable by the current state-of-the-art tools.}
+}
+
+
+
+
+@inproceedings{scala-17,
+author    = {Franck Cassez
+and {Anthony M.} Sloane},
+  title     = {ScalaSMT: Satisfiability Modulo Theory in Scala (Tool Paper)},
+  booktitle = {SCALA'17, October 23--27, 2017, Vancouver, BC, Canada. Proceedings.},
+  pages     = {},
+  year      = {2017},
+  xxxurl       = {http://dx.doi.org/10.1007/978-3-662-46681-0_39},
+  xxxdoi       = {10.1007/978-3-662-46681-0_39},
+  publisher = "acm",
+  xvolume = 9035,
+  xxxseries    = lncs,
+  mywebpage = {soft-verif},
+  keywords = {scala, SMT solvers},
+  category = {soft-verif},
+  show = {},
+  note={forthcoming},
+  urlpaper = {papers/scala-17.pdf},
+  abstract = {A Satisfiability Modulo Theory (SMT) solver is a program that implements algorithms to automatically determine whether 
+  a logical formula is satisfiable. 
+  The performance of SMT solvers has dramatically increased in the last decade and for instance, 
+  many of the state-of-the-art software analysis tools heavily rely on SMT solving to analyse source code. 
+  We present ScalaSMT, a Scala library that leverages the power of SMT solvers and makes SMT solving directly usable in Scala. 
+  ScalaSMT provides seamless access to numerous popular SMT solvers like Z3, CVC4, Yices, MathSat or SMTInterpol. 
+  Our library comes with a domain-specific language to write terms and logical formulas for a wide range of logical theories, 
+  thereby isolating users from the details of particular solvers.},
+    Type = {B - International Conferences},
+    show = {},
+}
+
+
+
+@Article{zheng-2017,
+ journal = {ACM Transactions on Embedded Computing Systems},
+ author={Zheng, Xi and Christine Julien and {Rodion M.} Podorozhny  and Franck Cassez and Hongxu, Chen},
+ title={Real-Time Simulation Support for Runtime Verification of Cyber-Physical Systems},
+ year = {2017},
+ xxissn = {1539-9087},
+ xxvolume = {16},
+ xxnumber = {2},
+ xxissue_date = {March 2017},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+xxkey = {{$\!\!$}} ,
+note={forthcoming}
+}
+
+
+
+@misc{cassez2017analysis,
+  title={Analysis of program code},
+  author={Cassez, F. and M{\"u}ller, C.},
+  url={https://www.google.com/patents/US9760469},
+  year={2017},
+  mywebpage = {soft-verif},
+  keywords = {software verification},
+  category = {soft-verif},
+  month=sep # "~12",
+  note={US Patent 9,760,469}
+}
+
+
+
+@inproceedings{tacas-17,
+author    = {Franck Cassez
+and {Anthony M.} Sloane
+and Matthew Roberts
+and Matthew Pigram
+and Pongsak Suvanpong
+and Pablo Gonz{\'{a}}lez de Aledo Marug{\'{a}}n},
+  title     = {Skink: Static Analysis of Programs in LLVM Intermediate Representation (Competition contribution)},
+  booktitle = {Tools and Algorithms for the Construction and Analysis of Systems
+               - 23rd International Conference, {TACAS} 2017, Held as Part of the
+               European Joint Conferences on Theory and Practice of Software, {ETAPS}
+               2017, Uppsala, Sweden, April 22-29, 2017. Proceedings},
+  
+ pages     = {380--384},
+  year      = {2017},
+  url       = {https://doi.org/10.1007/978-3-662-54580-5_27},
+  doi       = {10.1007/978-3-662-54580-5_27},
+  publisher = springv,
+  xvolume = 10206,
+  series    = lncs,
+  mywebpage = {soft-verif},
+  keywords = {refinement, software verification},
+  category = {soft-verif},
+  show = {},
+  xxnote={forthcoming},
+  urlpaper = {papers/sv-comp-2017.pdf},
+  abstract = {Skink is a static analysis tool that analyses the LLVM intermediate representation (LLVM-IR)
+of a program source code.
+The analysis consists of checking whether there is a feasible execution that can reach a
+ designated error block in the LLVM-IR.
+The result of a program analysis is ``correct'' if the error block is not reachable,
+``incorrect'' if the error block is reachable, or ``inconclusive'' if the status of the program could not be determined.
+In this paper, we introduce Skink V2.0 to analyse single and multi-threaded C programs.},
+    Type = {A - International Conferences},
+}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% 2016
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+@inproceedings{scala-16,
+ author = {Sloane, {Anthony M.} and Cassez, Franck and Buckley, Scott},
+ title = {The {Sbt-rats} Parser Generator Plugin for Scala (Tool Paper)},
+ booktitle = {Proceedings of the 2016 7th ACM SIGPLAN Symposium on Scala},
+ series = {SCALA 2016},
+ year = {2016},
+ isbn = {978-1-4503-4648-1},
+ location = {Amsterdam, Netherlands},
+ pages = {110--113},
+ numpages = {4},
+ url = {http://doi.acm.org/10.1145/2998392.3001580},
+ doi = {10.1145/2998392.3001580},
+ urlpaper={papers/scala-2016.pdf},
+ xxacmid = {3001580},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {Parsing expression grammars, Scala build tool},
+ abstract={Tools for creating parsers are a key part of a mature language eco-system. Scala has traditionally relied on combinator libraries for defining parsers but being libraries they come with fundamental implementation limitations. An alternative is to use a Java-based parser generator such as ANTLR or Rats! but these tools are quite verbose and not ideal to use with Scala code. We describe our experiences with Scala-focused parser generation that is embodied in our sbtrats plugin for the Scala Build Tool. At its simplest, sbtrats provides a bridge to the Rats! parser generator for Java. On top of this bridge, we have a simple grammar definition notation that incorporates annotations for tree construction and pretty-printing. As well as generating a Rats! grammar, sbtrats can optionally generate case class definitions for the tree structure and a pretty-printer defined using our Kiama language processing library. We explain the sbtrats grammar notation and describe our positive experiences using it to define grammars for LLVM assembly notation and the SMTLIB input/output language for SMT solvers.},
+ show = {},
+ Type = {B - International Conferences},
+
+}
+
+
+
+@article{ieee-16,
+  title={Efficient and Scalable Runtime Monitoring for Cyber--Physical System},
+  author={Zheng, Xi and Christine Julien and {Rodion M.} Podorozhny  and Franck Cassez and Thierry Rakotoarivelo},
+  journal={IEEE Systems Journal},
+  year={2016},
+  volume=99,
+  pages={1--12},
+  publisher={IEEE},
+  doi={10.1109/JSYST.2016.2614599},
+  ISSN={1932-8184},
+  urlpaper={papers/ieee-systems-2016.pdf},
+  url_link={http://ieeexplore.ieee.org/document/7605519/},
+  month=oct,
+  show = {},
+  keywords = {wcet, timed automata},
+
+  abstract={Our reliance on cyber–physical systems (CPSs) is increasingly widespread, but scalable methods for the analysis of such systems remain a significant challenge. Runtime verification of CPSs provides a reasonable middle ground between formal verification and simulation approaches, but it comes with its own challenges. A runtime verification system must run directly on the deployed application. In the CPS domain, it is therefore critical that a runtime verification system exhibits low overhead and good scalability so that the verification does not interfere with the analyzed CPS application. In this paper, we introduce Brace, a runtime verification system whose focus is on ensuring these performance qualities for applications in the CPS domain. Brace strives to bound the computation overhead for CPS runtime verification while preserving a high level of monitoring accuracy in terms of the number of false positive and false negative reports. Brace is particularly suitable to systems in which scheduling is distributed across networked CPS components. We evaluate Brace to determine how effectively and efficiently it can detect injected errors in two existing real-life CPS applications with distributed scheduling. Our results demonstrate that Brace efficiently detects those errors and a few true bugs and is able to bound both the memory and computation overhead even in systems with large numbers of observed events.},
+  Type = {A - Journal},
+
+}
+
+
+
+@article{cassez-tcs-2016,
+  author    = {Franck Cassez and
+               Ron van der Meyden and
+               Chenyi Zhang},
+  title     = {The complexity of synchronous notions of information flow security},
+  journal   = {Theor. Comput. Sci.},
+  volume    = {631},
+  pages     = {16--42},
+  year      = {2016},
+  urlpaper = {papers/tcs-2016.pdf},
+  url_link       = {http://dx.doi.org/10.1016/j.tcs.2016.03.011},
+  doi       = {10.1016/j.tcs.2016.03.011},
+  timestamp = {Tue, 17 May 2016 17:26:44 +0200},
+  biburl    = {http://dblp.uni-trier.de/rec/bib/journals/tcs/CassezMZ16},
+  bibsource = {dblp computer science bibliography, http://dblp.org},
+  show = {},
+  abstract={The paper considers the complexity of verifying that a finite state system satisfies a number of definitions of information flow security. The systems model considered is one in which agents operate synchronously with awareness of the global clock. This enables timing based attacks to be captured, whereas previous work on this topic has dealt primarily with asynchronous systems. Versions of the notions of nondeducibility on inputs, nondeducibility on strategies, and an unwinding based notion are formulated for this model. All three notions are shown to be decidable, and their computational complexity is characterised.},
+  Type = {A - Journal},
+  keywords = {security, non-interference},
+
+
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% 2015
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+@inproceedings{mass-Zheng-15,
+  author    = {Xi Zheng and
+               Christine Julien and
+               {Rodion M.} Podorozhny and
+               Franck Cassez},
+  title     = {BraceAssertion: Runtime Verification of Cyber-Physical Systems},
+  booktitle = {12th {IEEE} International Conference on Mobile Ad Hoc and Sensor Systems,
+               {MASS} 2015, Dallas, TX, USA, October 19-22, 2015},
+  pages     = {298--306},
+  year      = {2015},
+  urlpaper = {papers/mass-2015.pdf},
+  url_link       = {http://dx.doi.org/10.1109/MASS.2015.15},
+  doi       = {10.1109/MASS.2015.15},
+  timestamp = {Fri, 06 May 2016 13:36:43 +0200},
+  biburl    = {http://dblp.uni-trier.de/rec/bib/conf/mass/ZhengJPC15},
+  bibsource = {dblp computer science bibliography, http://dblp.org},
+  show = {},
+  keywords = {wcet, timed automata},
+
+  abstract={Cyber-Physical Systems (CPS) have gained wide popularity, however, developing and debugging CPS remain significant challenges. Many bugs are detectable only at runtime under deployment conditions that may be unpredictable or at least unexpected at development time. The current state of the practice of debugging CPS is generally ad hoc, involving trial and error in a real deployment. For increased rigor, it is appealing to bring formal methods to CPS verification. However developers often eschew formal approaches due to complexity and lack of efficiency. This paper presents Brace Assertion, a specification framework based on natural language queries that are automatically converted to a determinitic class of timed automata used for runtime monitoring. To reduce runtime overhead and support properties that reference predicate logic, we use a second monitor automaton to create filtered traces on which to run the analysis using the specification monitor. We evaluate the Brace Assertion framework using a real CPS case study and show that the framework is able to minimize runtime overhead with an increasing number of monitors.},
+  Type = {B - International Conferences},
+
+}
+
+
+
+@inproceedings{cassez-mars-2015,
+  author    = {Franck Cassez and
+               Pablo Gonz{\'{a}}lez de Aledo Marug{\'{a}}n},
+  title     = {Timed Automata for Modelling Caches and Pipelines},
+  booktitle = {Proceedings Workshop on Models for Formal Analysis of Real Systems,
+               {MARS} 2015, Suva, Fiji, November 23, 2015.},
+  pages     = {37--45},
+  year      = {2015},
+   editor    = {Rob J. van Glabbeek and
+               Jan Friso Groote and
+               Peter H{\"{o}}fner},
+                series    = {{EPTCS}},
+  volume    = {196},
+  year      = {2015},
+  url_link       = {http://dx.doi.org/10.4204/EPTCS.196.4},
+    urlslides = {papers/slides-mars-2015.pdf},
+  doi       = {10.4204/EPTCS.196.4},
+  category= {wcet},
+  mywebpage = {wcet},
+  show = {},
+  keywords = {wcet, timed automata},
+  abstract = {
+  In this paper, we focus on modelling the timing aspects of binary programs running on architectures featuring caches and pipelines. The objective is to obtain a timed automaton model to compute tight bounds for the worst-case execution time (WCET) of the programs using model-checking techniques.
+  },
+  Type = {B - International Conferences},
+}
+
+
+
+@inproceedings{cassez-lpar-2015,
+  author    = {Franck Cassez and
+               Frowin Ziegler},
+                editor    = {Martin Davis and
+               Ansgar Fehnker and
+               Annabelle McIver and
+               Andrei Voronkov},
+  title     = {Verification of Concurrent Programs Using Trace Abstraction Refinement},
+  booktitle = {Logic for Programming, Artificial Intelligence, and Reasoning - 20th
+               International Conference, {LPAR-20} 2015, Suva, Fiji, November 24-28,
+               2015, Proceedings},
+  pages     = {233--248},
+  year      = {2015},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {9450},
+  publisher = {Springer},
+  year      = {2015},
+  url       = {http://dx.doi.org/10.1007/978-3-662-48899-7_17},
+  mywebpage = {soft-verif},
+  category = {soft-verif},
+  isbn      = {978-3-662-48898-0},
+  doi       = {10.1007/978-3-662-48899-7_17},
+  show = {},
+  note = {LPAR Best paper award},
+  urlpaper = {papers/lpar-2015.pdf},
+    urlslides = {papers/slides-lpar-2015.pdf},
+  abstract = {Verifying concurrent programs is notoriously hard due to the state explosion problem: (1) the data state space can be very large as the variables can range over very large sets, and (2) the control state space is the Cartesian product of the control state space of the concurrent com- ponents and thus grows exponentially in the number of components. On the one hand, the most successful approaches to address the control state explosion problem are based on assume-guarantee reasoning or model-checking coupled with partial order reduction. On the other hand, the most successful techniques to address the data space explosion problem for sequential programs verification are based on the abstraction/refine- ment paradigm which consists in refining an abstract over-approximation of a program via predicate refinement. In this paper, we show that we can combine partial order reduction techniques with trace abstraction refinement. We apply our approach to standard benchmarks and show that it matches current state-of-the-art analysis techniques.},
+  Type = {B - International Conferences},
+}
+
+
+
+@inproceedings{tacas-15,
+author    = {Franck Cassez and
+               Takashi Matsuoka and
+               Edward Pierzchalski and
+               Nathan Smyth},
+  title     = {Perentie: Modular Trace Refinement and Selective Value Tracking -
+               (Competition Contribution)},
+  booktitle = {Tools and Algorithms for the Construction and Analysis of Systems
+               - 21st International Conference, {TACAS} 2015, Held as Part of the
+               European Joint Conferences on Theory and Practice of Software, {ETAPS}
+               2015, London, UK, April 11-18, 2015. Proceedings},
+  pages     = {439--442},
+  year      = {2015},
+  url       = {http://dx.doi.org/10.1007/978-3-662-46681-0_39},
+  doi       = {10.1007/978-3-662-46681-0_39},
+  publisher = springv,
+  volume = 9035,
+  series    = lncs,
+  mywebpage = {soft-verif},
+  keywords = {refinement, software verification},
+  category = {soft-verif},
+  show = {},
+  urlpaper = {papers/sv-comp-2015.pdf},
+  abstract = {Perentie is a software analysis tool based on iterative refinement of trace abstraction:
+  if the refinement process terminates, the program is either declared correct or a counterexample is
+  provided and the program is incorrect.},
+    Type = {B - International Conferences},
+
+}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% 2014
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+@article{ijc-14,
+author = {Benattar, Gilles and Franck Cassez and Lime, Didier
+and Roux, Olivier H.},
+title = {Control and Synthesis of Non-Interferent Timed
+Systems},
+Type = {A - Journal},
+journal = {International Journal of Control}, volume = {88}, number =
+{2},
+pages = {217--236},
+year = {2015},
+doi = {10.1080/00207179.2014.944356},
+mywebpage = {timed},
+urlpaper = {papers/ijc-2014.pdf},
+ee = {http://www.tandfonline.com/eprint/h7nIKxnegMGR5M7EaeSF/full},
+keywords = {security, non-interference},
+category = {Non-interference},
+abstract = {We focus on the control and the
+synthesis of secure timed systems which are modelled as timed automata. The
+security property that the system must satisfy is a non-interference property.
+Intuitively, non-interference ensures the absence of any causal dependency from
+a high-level domain to a lower level domain. Various notions of non-interference
+have been defined in the literature, and in this paper, we focus on strong non-
+deterministic non-interference (SNNI) and two (bi)simulation-based variants
+thereof (cosimulation-based SNNI and bisimulation-based SNNI). These properties
+and their extensions have been mostly studied in the context of discrete event
+systems, while it is now well-known that time is an important attack vector
+against secure systems. At the same time, there is an obvious interest in going
+beyond simple verification to control problems: to be able to automatically make
+systems secure. We consider non-interference properties in the challenging
+setting of control of dense-time systems specified by timed automata and we
+study the two following problems: (1) check whether it is possible to find a
+sub-system so that it is non- interferent; if yes, (2) compute a (largest) sub-
+system which is non- interferent. We exhibit decidable sub-classes for these
+problems, assess their theoretical complexities and provide effective algorithms
+based on the classical framework of timed games.}
+}
+
+
+
+
+@proceedings{atva-14,
+  editor    = {Franck Cassez and
+               Jean-François Raskin},
+  title     = {Automated Technology for Verification and Analysis - 12th International
+               Symposium, {ATVA} 2014, Sydney, NSW, Australia, November 3-7, 2014,
+               Proceedings},
+  series    = lncs,
+  volume    = {8837},
+  publisher = springv,
+  year      = {2014},
+  url       = {http://dx.doi.org/10.1007/978-3-319-11936-6},
+  doi       = {10.1007/978-3-319-11936-6},
+  show = {},
+  category = {Proceedings (Editor)},
+  isbn      = {978-3-319-11935-9},
+  Type = {D - Conference Proceedings},
+}
+
+
+
+
+@inproceedings{fsttcs-14,
+  author    = {Franck Cassez and
+               Christian Müller and
+               Karla Burnett},
+  title     = {Summary-Based Inter-Procedural Analysis via Modular Trace Refinement},
+  booktitle = {34th International Conference on Foundation of Software Technology
+               and Theoretical Computer Science, {FSTTCS} 2014, December 15-17, 2014,
+               New Delhi, India},
+  pages     = {545--556},
+  year      = {2014},
+  mywebpage = {soft-verif},
+  category = {Software verification},
+  keywords = {trace refinement, software verification, Hoare logic},
+  url_link       = {http://dx.doi.org/10.4230/LIPIcs.FSTTCS.2014.545},
+  doi       = {10.4230/LIPIcs.FSTTCS.2014.545},
+  abstract = {We propose a generalisation of trace refinement for the verification of inter-procedural programs.
+  Our method is a top-down modular, summary-based approach, and analyses inter-procedural programs by building function summaries on-demand
+  and improving the summaries each time a function is analysed. Our method is sound, and complete relative to the existence of a
+  modular Hoare proof for a non-recursive program. We have implemented a prototype analyser that demonstrates the
+  main features of our approach and yields promising results.
+  },
+  Type = {B - International Conferences},
+}
+
+
+
+
+@inproceedings{hscc-14,
+  author    = {Romain Brenguier and
+               Franck Cassez and
+               Jean-François Raskin},
+  title     = {Energy and mean-payoff timed games},
+  booktitle = {17th International Conference on Hybrid Systems: Computation
+               and Control, HSCC'14},
+  year      = {2014},
+  pages     = {283-292},
+  urlpaper = {papers/hscc-2014.pdf},
+  url_link     = {http://doi.acm.org/10.1145/2562059.2562116},
+  mywebpage = {timed},
+  show = {},
+  keywords = {hybrid, timed automata, games},
+  abstract = {In this paper, we study energy and mean-payoff timed games.
+  The decision problems that consist in determining the existence of winning strategies in those games are undecidable,
+  and we thus provide semi-algorithms for solving these strategy synthesis problems.
+  We then identify a large class of timed games for which our semi-algorithms terminate and are thus complete.
+  We also study in detail the relation between mean-payoff and energy timed games. Finally,
+  we provide a symbolic algorithm to solve energy timed games and demonstrate its use on small examples using HyTech.},
+  Type = {B - International Conferences},
+
+}
+
+
+
+@article{DBLP:journals/corr/CassezMZ14,
+  author    = {Franck Cassez and
+               Ron van der Meyden and
+               Chenyi Zhang},
+  title     = {The Complexity of Synchronous Notions of Information Flow Security},
+  journal   = {CoRR},
+  Type = {E - Reports},
+  volume    = {abs/1402.0601},
+  year      = {2014},
+  url       = {http://arxiv.org/abs/1402.0601},
+  timestamp = {Wed, 05 Mar 2014 14:43:44 +0100},
+  biburl    = {http://dblp.uni-trier.de/rec/bib/journals/corr/CassezMZ14},
+  bibsource = {dblp computer science bibliography, http://dblp.org},
+  keywords = {security, non-interference, complexity},
+  show = {},
+  category = {Non-interference},
+  abstract = {The paper considers the complexity of verifying that a finite state system satisfies a number of definitions of information flow security. The systems model considered is one in which agents operate synchronously with awareness of the global clock. This enables timing based attacks to be captured, whereas previous work on this topic has dealt primarily with asynchronous systems. Versions of the notions of nondeducibility on inputs, nondeducibility on strategies, and an unwinding based notion are formulated for this model. All three notions are shown to be decidable, and their computational complexity is characterised.
+  }
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% 2013
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+@inbook{cassez-control-iste-2013,
+   author = {Franck Cassez and Markey, Nicolas},
+   title = {Communicating Embedded Systems},
+   editor = {Jard, Claude and Roux, Olivier H.},
+   month = feb,
+   pages = {67--105},
+   publisher = {ISTE Ltd. -- John Wiley \&amp; Sons, Ltd},
+   chapter = {Control of Timed Systems},
+  url = {http://onlinelibrary.wiley.com/book/10.1002/9781118558188},
+   year = {2013},
+   note = {New edition, 2013},
+   doi = {10.1002/9781118558188},
+   isbn = {9781848211438},
+   keywords = {control, timed automata},
+  mywbepage = {timed},
+abstract={In this book Chapter we address the problem of controller synthesis for timed systems. By
+timed systems we refer to systems which are subject to quantitative (hard) real-time
+constraints. We assume the reader is familiar with the basics of Timed Automata
+theory, or has read Chapter 1 and Chapter 2 in this book. },
+  Type = {C - Book Chapters},
+
+}
+
+
+
+@inbook{cassez-diag-iste-2013,
+   author = {Franck Cassez and Tripakis, Stavros},
+   title = {Communicating Embedded Systems},
+   editor = {Jard, Claude and Roux, Olivier H.},
+   month = feb,
+   pages = {107--138},
+   publisher = {ISTE Ltd. -- John Wiley \&amp; Sons, Ltd},
+   chapter = {Fault Diagnosis of Timed Systems},
+   keywords = {diagnosis, timed automata},
+  mywbepage = {timed},
+  url = {http://onlinelibrary.wiley.com/book/10.1002/9781118558188},
+   year = {2013},
+      note = {New edition, 2013},
+    doi = {10.1002/9781118558188},
+   isbn = {9781848211438},
+abstract={In this book Chapter, we review the main results pertaining
+                  to the problem of fault diagnosis of timed
+                  automata. Timed automata are introduced in Chapter 1
+                  and Chapter 2 in this book, and the reader not
+                  familiar with this model is invited to read them
+                  first.},
+                    Type = {C - Book Chapters},
+
+}
+
+
+
+@inproceedings{cassez-formats-2013,
+  author    = {Franck Cassez and
+               Alban Grastien},
+  title     = {Predictability of Event Occurrences in Timed Systems},
+  booktitle = {Formal Modeling and Analysis of Timed Systems - 11th International
+               Conference, {FORMATS} 2013, Buenos Aires, Argentina, August 29-31,
+               2013. Proceedings},
+  pages     = {62--76},
+  year      = {2013},
+  urlpaper = {papers/formats-2013.pdf},
+  urlslides = {papers/slides-formats-2013.pdf},
+   url_link       = {http://dx.doi.org/10.1007/978-3-642-40229-6_5},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {8053},
+  publisher = {Springer},
+  doi       = {10.1007/978-3-642-40229-6_5},
+  show = {},
+  keywords = {predictability, diagnosis, timed automata},
+  mywbepage = {timed},
+  category = {Fault diagnosis},
+  abstract = {
+    We address the problem of predicting events' occurrences in partially observable timed systems modelled by timed automata. Our contribution is many-fold: 1) we give a definition of bounded predictability, namely k-predictability, that takes into account the minimum delay between the prediction and the actual event's occurrence; 2) we show that 0-predictability is equivalent to the original notion of predictability of S. Genc and S. Lafortune; 3) we provide a necessary and sufficient condition for k-predictability (which is very similar to k-diagnosability) and give a simple algorithm to check k-predictability; 4) we address the problem of predictability of events' occurrences in timed automata and show that the problem is PSPACE-complete.
+  },
+   Type = {B - International Conferences},
+
+}
+
+
+
+@inproceedings{scam-2013,
+  author    = {Sebastian Biallas and
+               Mads Chr. Olesen and
+               Franck Cassez and
+               Ralf Huuck},
+  title     = {PtrTracker: Pragmatic pointer analysis},
+  booktitle = {13th {IEEE} International Working Conference on Source Code Analysis
+               and Manipulation, {SCAM} 2013, Eindhoven, Netherlands, September 22-23,
+               2013},
+  pages     = {69--73},
+  year      = {2013},
+  publisher = {{IEEE} Computer Society},
+  urlpaper = {papers/scam-2013.pdf},
+  url_link       = {http://dx.doi.org/10.1109/SCAM.2013.6648186},
+  doi       = {10.1109/SCAM.2013.6648186},
+  keywords = {Software verification, pointers, static analysis},
+  mywebpage = {soft-verif},
+  category = {Software verification},
+  abstract = {
+  Static program analysis for bug detection in industrial C/C++ code has many challenges. One of them is to analyze pointer and pointer structures efficiently. While there has been much research into various aspects of pointer analysis either for compiler optimization or for verification tasks, both classical categories are not optimized for bug detection, where speed and precision are important, but soundness (no missed bugs) and completeness (no false positives) do not necessarily need to be guaranteed.
+  },
+    Type = {B - International Conferences},
+}
+
+
+
+@article{DBLP:journals/corr/CassezG13,
+  author    = {Franck Cassez and
+               Alban Grastien},
+  title     = {Predictability of Event Occurrences in Timed Systems},
+  journal   = {CoRR},
+  Type = {E - Reports},
+  volume    = {abs/1306.0662},
+  year      = {2013},
+  url       = {http://arxiv.org/abs/1306.0662},
+  timestamp = {Mon, 01 Jul 2013 20:31:24 +0200},
+  biburl    = {http://dblp.uni-trier.de/rec/bib/journals/corr/CassezG13},
+  bibsource = {dblp computer science bibliography, http://dblp.org},
+  category = {Fault diagnosis},
+  abstract = {
+  We address the problem of predicting events' occurrences in partially observable timed systems modelled by timed automata. Our contribution is many-fold: 1) we give a definition of bounded predictability, namely k-predictability, that takes into account the minimum delay between the prediction and the actual event's occurrence; 2) we show that 0-predictability is equivalent to the original notion of predictability of S. Genc and S. Lafortune; 3) we provide a necessary and sufficient condition for k-predictability (which is very similar to k-diagnosability) and give a simple algorithm to check k-predictability; 4) we address the problem of predictability of events' occurrences in timed automata and show that the problem is PSPACE-complete.
+  },
+  mywebpage = {}
+}
+
+
+
+@article{tpn-13,
+  author    = {Béatrice Bérard and
+               Franck Cassez and
+               Serge Haddad and
+               Didier Lime and
+               Olivier H. Roux},
+  title     = {The expressive power of time {Petri} nets},
+  journal   =  {Theoretical Computer Science},
+  Type = {A - Journal},
+  volume    = {474},
+  year      = {2013},
+  pages     = {1-20},
+  doi        = {http://dx.doi.org/10.1016/j.tcs.2012.12.005},
+  bibsource = {DBLP, http://dblp.uni-trier.de},
+  category= {Timed Petri nets},
+  mywebpage = {timed},
+  keywords = {time petri nets, timed automata},
+  urlpaper = {papers/tcs-2013.pdf},
+  abstract = {We investigate expressiveness questions for time Petri nets (TPNs)
+  and some of their most useful extensions. We first introduce generalised time Petri nets (GTPNs)
+  as an abstract model that encompasses variants of TPNs such as self modifications and read, reset and inhibitor arcs.
+We give a syntactical translation from bounded GTPNs to timed automata (TA)
+that generates isomorphic transition systems. We prove that the class of bounded GTPNs is strictly l
+ess expressive than TA w.r.t. weak timed bisimilarity.
+We prove that bounded GTPNs, bounded TPNs and TA are equally expressive w.r.t. timed language acceptance.
+Finally, we characterise a syntactical subclass of TA that is equally expressive to bounded GTPNs "á la Merlin" w.r.t.
+weak timed bisimilarity. These results provide a unified comparison of the expressiveness of
+many variants of timed models often used in practice. It leads to new important results for TPNs.
+Among them are: 1-safe TPNs and bounded-TPNs are equally expressive; $\epsilon$-transitions strictly
+increase the expressive power of TPNs; self modifying nets as well as read,
+inhibitor and reset arcs do not add expressiveness to bounded TPNs.
+}
+}
+
+
+
+
+@inproceedings{cassez-acsd-13,
+  author    = {Franck Cassez and
+               {Jean-Luc} Béchennec},
+  title     = {Timing Analysis of Binary Programs with {UPPAAL}},
+  booktitle = {13th International Conference on Application of Concurrency
+               to System Design, ACSD 2013},
+  year      = {2013},
+  month = jul,
+  pages     = {41-50},
+    PUBLISHER = {IEEE Computer Society},
+  urlpaper = {papers/acsd-2013.pdf},
+  urlslides = {papers/slides-acsd-wcet-2013.pdf},
+  doi       = {http://dx.doi.org/10.1109/ACSD.2013.7},
+  mywebpage = {wcet},
+  show = {},
+  keywords = {wcet, timed automata},
+  abstract = {
+  We address the problem of computing accurate Worst-Case Execution Time (WCET). We propose a fully automatic and modular methodology based on program slicing and real-time model-checking. We have implemented our methodology and applied it to standard benchmarks. To further validate the approach, we also compare our results to the real execution times of the programs measured on a real board.
+  },
+      Type = {B - International Conferences},
+
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% 2012
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+@proceedings{ssv-12,
+  editor    = {Franck Cassez and
+               Ralf Huuck and
+               Gerwin Klein and
+               Bastian Schlich},
+  title     = {Proceedings Seventh Conference on Systems Software Verification, {SSV}
+               2012, Sydney, Australia, 28-30 November 2012},
+  series    = {{EPTCS}},
+  volume    = {102},
+  year      = {2012},
+  url       = {http://dx.doi.org/10.4204/EPTCS.102},
+  doi       = {10.4204/EPTCS.102},
+  category= {Proceedings (Editor)},
+  mywebpage = {},
+  show = {},
+  keywords = {Proceedings},
+      Type = {D - Conference Proceedings},
+}
+
+
+
+@inproceedings{wcet-12,
+  author    = {Franck Cassez and
+               René Rydhof Hansen and
+               Mads Chr. Olesen},
+  title     = {What is a Timing Anomaly?},
+  booktitle = {12th International Workshop on Worst-Case Execution Time
+               Analysis, WCET 2012, July 10, 2012, Pisa, Italy},
+  year      = {2012},
+  pages     = {1-12},
+  urlpaper = {papers/wcet-2012.pdf},
+  url_link        = {http://dx.doi.org/10.4230/OASIcs.WCET.2012.1},
+  abstract = {Timing anomalies make worst-case execution time analysis much harder, because the analysis will have to consider all local choices. It has been widely recognised that certain hardware features are timing anomalous, while others are not. However, defining formally what a timing anomaly is, has been difficult. We examine previous definitions of timing anomalies, and identify examples where they do not align with common observations. We then provide a definition for consistently slower hardware traces that can be used to define timing anomalies and aligns with common observations.},
+  category= {wcet},
+  mywebpage = {soft-verif,wcet},
+  keywords = {wcet},
+   publisher = {Schloss Dagstuhl - Leibniz-Zentrum fuer Informatik},
+  series    = {OASICS},
+  volume    = {23},
+        Type = {B - International Conferences},
+
+}
+
+
+
+
+@inproceedings{atva-12,
+  author    = {Peter E. Bulychev and
+               Franck Cassez and
+               Alexandre David and
+               Kim Guldstrand Larsen and
+               Jean-François Raskin and
+               Pierre-Alain Reynier},
+  title     = {Controllers with Minimal Observation Power (Application
+               to Timed Systems)},
+  booktitle = {Automated Technology for Verification and Analysis - 10th
+               International Symposium, ATVA 2012},
+  year      = {2012},
+  pages     = {223-237},
+  urlpaper = {papers/atva-2012.pdf},
+  url_link  = {http://dx.doi.org/10.1007/978-3-642-33386-6_19},
+  mywebpage = {timed},
+  keywords = {timed automata, timed games, control},
+  abstract = {
+  We consider the problem of controller synthesis under imperfect information in a setting where there is a set of available observable predicates equipped with a cost function. The problem that we address is the computation of a subset of predicates sufficient for control and whose cost is minimal. Our solution avoids a full exploration of all possible subsets of predicates and reuses some information between different iterations. We apply our approach to timed systems. We have developed a tool prototype and analyze the performance of our optimization algorithm on two case studies.
+  },
+        Type = {B - International Conferences},
+
+}
+
+
+
+@article{bulychev-2012,
+  author    = {Peter E. Bulychev and
+               Franck Cassez and
+               Alexandre David and
+               Kim G. Larsen and
+               Jean{-}Fran{\c{c}}ois Raskin and
+               Pierre{-}Alain Reynier},
+  title     = {Controllers with Minimal Observation Power (Application to Timed Systems)},
+  journal   = {CoRR},
+  Type = {E - Reports},
+  volume    = {abs/1207.1276},
+  year      = {2012},
+  urlpaper       = {http://arxiv.org/abs/1207.1276},
+  timestamp = {Wed, 10 Oct 2012 21:28:54 +0200},
+  biburl    = {http://dblp.uni-trier.de/rec/bib/journals/corr/abs-1207-1276},
+  bibsource = {dblp computer science bibliography, http://dblp.org},
+  abstract = {
+  We consider the problem of controller synthesis under imperfect information in a setting where there is a set of available observable predicates equipped with a cost function. The problem that we address is the computation of a subset of predicates sufficient for control and whose cost is minimal. Our solution avoids a full exploration of all possible subsets of predicates and reuses some information between different iterations. We apply our approach to timed systems. We have developed a tool prototype and analyze the performance of our optimization algorithm on two case studies.
+  },
+   mywebpage = {timed},
+  keywords = {timed automata, timed games, control},
+
+}
+
+
+
+@article{tac-12,
+  author    = {Franck Cassez},
+  title     = {The Complexity of Codiagnosability for Discrete Event and
+               Timed Systems},
+  journal   = {IEEE Trans. Automat. Contr.},
+  volume    = {57},
+  number    = {7},
+  year      = {2012},
+  type = {A - Journal},
+  pages     = {1752-1764},
+  urlpaper = {papers/tac-2012.pdf},
+  url_link       = {http://dx.doi.org/10.1109/TAC.2012.2183169},
+  doi = {http://dx.doi.org/10.1109/TAC.2012.2183169},
+  mywebpage = {timed},
+  keywords = {timed automata, Fault diagnosis, Complexity},
+  abstract = {
+  In this paper we study the fault codiagnosis problem for discrete event systems given by finite automata (FA) and timed systems given by timed automata (TA). We provide a uniform characterisation of codiagnosability for FA and TA which extends the necessary and sufficient condition that characterises diagosability. We also settle the complexity of the codiagnosability problems both for FA and TA and show that codiagnosability is PSPACE-complete in both cases. For FA this improves on the previously known bound (EXPTIME) and for TA it is a new result. We then generalise the previous results to the case of dynamic observers. Finally we show that the codiagnosis problem for TA under bounded resources is 2EXPTIME-complete.
+  }
+}
+
+
+
+@article{fmsd-12,
+  author    = {Franck Cassez and
+               Jérémy Dubreil and
+               Hervé Marchand},
+  title     = {Synthesis of opaque systems with static and dynamic masks},
+  journal   = {Formal Methods in System Design},
+  volume    = {40},
+  number    = {1},
+  year      = {2012},
+  pages     = {88-115},
+    type = {A - Journal},
+
+  urlpaper = {papers/fmsd-2012.pdf},
+  ee        = {http://dx.doi.org/10.1007/s10703-012-0141-9},
+  bibsource = {DBLP, http://dblp.uni-trier.de},
+  mywebpage = {},
+  keywords = {security, opacity, diagnosis},
+  abstract = {
+Opacity is a security property formalizing the absence of secret information leakage and we address in this paper the problem of synthesizing opaque systems. A secret predicate S over the runs of a system G is opaque to an external user having partial observ- ability over G, if s/he can never infer from the observation of a run of G that the run belongs to S. We choose to control the observability of events by adding a device, called a mask, between the system G and the users. We first investigate the case of static partial observability where the set of events the user can observe is fixed a priori by a static mask. In this context, we show that checking whether a system is opaque is PSPACE-complete, which implies that computing an optimal static mask ensuring opacity is also a PSPACE-complete problem. Next, we introduce dynamic partial observability where the set of events the user can observe changes over time and is chosen by a dynamic mask. We show how to check that a system is opaque w.r.t. to a dynamic mask and also address the corresponding synthesis problem: given a system G and secret states S, compute the set of dynamic masks under which S is opaque. Our main result is that the set of such masks can be finitely represented and can be computed in EXPTIME and this is a lower bound. Finally we also address the problem of computing an optimal mask.
+
+  },
+}
+
+
+
+@article{tapas-12,
+  author    = {Mark Bradley and
+               Franck Cassez and
+               Ansgar Fehnker and
+               Thomas Given-Wilson and
+               Ralf Huuck},
+  title     = {High Performance Static Analysis for Industry},
+  journal   = {Electr. Notes Theor. Comput. Sci.},
+  volume    = {289},
+  year      = {2012},
+  pages     = {3-14},
+  urlpaper = {papers/tapas-2012.pdf},
+  ee        = {http://dx.doi.org/10.1016/j.entcs.2012.11.002},
+  bibsource = {DBLP, http://dblp.uni-trier.de},
+  mywebpage = {soft-verif},
+  keywords = {software verification},
+  abstract = {
+  Static source code analysis for software bug detection has come a long way since its early beginnings as a compiler technology. However, with the introduction of more sophisticated algorithmic techniques, such as model checking and constraint solving, questions about performance are a major concern. In this work we present an empirical study of our industrial strength source code analysis tool Goanna that uses a model checking core for static analysis of C/C++ code. We present the core technology and abstraction mechanism with a focus on performance, as guided by experience from having analyzed millions of lines of code. In particular, we present results from our recent study within the NIST/DHS SAMATE program. The results show that, maybe surprisingly, formal verification techniques can be used successfully in practical industry applications scaling roughly linearly, even for millions of lines of code.
+  },
+        Type = {B - International Conferences},
+
+}
+
+
+
+@article{benattar-2012,
+  author    = {Gilles Benattar and
+               Franck Cassez and
+               Didier Lime and
+               Olivier H. Roux},
+  title     = {Control and Synthesis of Non-Interferent Timed Systems},
+  journal   = {CoRR},
+  Type = {E - Reports},
+  volume    = {abs/1207.4984},
+  year      = {2012},
+  url       = {http://arxiv.org/abs/1207.4984},
+  timestamp = {Wed, 10 Oct 2012 21:28:54 +0200},
+  biburl    = {http://dblp.uni-trier.de/rec/bib/journals/corr/abs-1207-4984},
+  bibsource = {dblp computer science bibliography, http://dblp.org},
+  keywords = {sceurity, non-interference},
+  abstract = {
+In this paper, we focus on the synthesis of secure timed systems which are modelled as timed automata. The security property that the system must satisfy is a non-interference property. Intuitively, non-interference ensures the absence of any causal dependency from a high-level domain to a lower-level domain. Various notions of non-interference have been defined in the literature, and in this paper we focus on Strong Non-deterministic Non-Interference (SNNI) and two (bi)simulation based variants thereof (CSNNI and BSNNI). We consider timed non-interference properties for timed systems specified by timed automata and we study the two following problems: (1) check whether it is possible to find a sub-system so that it is non-interferent; if yes (2) compute a (largest) sub-system which is non-interferent.
+  }
+}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% 2011
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+@inproceedings{cassez-acsd-2011,
+  author    = {Franck Cassez},
+  title     = {Timed Games for Computing {WCET} for Pipelined Processors with Caches},
+  booktitle = {11th International Conference on Application of Concurrency to System
+               Design, {ACSD} 2011, Newcastle Upon Tyne, UK, 20-24 June, 2011},
+  pages     = {195--204},
+  year      = {2011},
+  publisher = {{IEEE}},
+  url       = {http://doi.ieeecomputersociety.org/10.1109/ACSD.2011.15},
+  doi       = {10.1109/ACSD.2011.15},
+  timestamp = {Wed, 15 Feb 2012 09:59:43 +0100},
+  biburl    = {http://dblp.uni-trier.de/rec/bib/conf/acsd/Cassez11},
+  bibsource = {dblp computer science bibliography, http://dblp.org},
+   urlpaper = {papers/acsd-2011.pdf},
+  urlslides = {papers/slides-acsd-2011.pdf},
+  ABSTRACT = {In this paper we introduce a framework for computing upper bounds yet
+accurate WCET for hardware platforms with caches and pipelines. The methodology
+we propose consists of 3 steps: 1) given a program to analyse, compute an
+equivalent (WCET-wise) abstract program; 2) build a timed game by composing
+this abstract program with a network of timed automata modeling the
+architecture; and 3) compute the WCET as the optimal time to reach a winning
+state in this game. We demonstrate the applicability of our framework on
+standard benchmarks for an ARM9 processor with instruction and data caches, and
+compute the WCET with UPPAAL-TiGA. We also show that this framework can easily
+be extended to take into account dynamic changes in the speed of the processor
+during program execution.
+},
+ee       = {http://dx.doi.org/10.1109/ACSD.2011.15},
+  keywords = {wcet, timed automata},
+  category = {wcet},
+  show = {},
+  category= {wcet},
+  mywebpage = {wcet},
+        Type = {B - International Conferences},
+
+}
+
+
+
+
+@article{bech-wcet-2011,
+  author    = {Jean{-}Luc B{\'{e}}chennec and
+               Franck Cassez},
+  title     = {Computation of {WCET} using Program Slicing and Real-Time Model-Checking},
+  journal   = {CoRR},
+  Type = {E - Reports},
+  volume    = {abs/1105.1633},
+  year      = {2011},
+  urlpaper       = {http://arxiv.org/abs/1105.1633},
+  timestamp = {Mon, 05 Dec 2011 18:05:32 +0100},
+  biburl    = {http://dblp.uni-trier.de/rec/bib/journals/corr/abs-1105-1633},
+  bibsource = {dblp computer science bibliography, http://dblp.org},
+  ABSTRACT = { Computing accurate WCET on modern complex architectures is a challenging task. This problem has been devoted a lot of attention in the last decade but there are still some open issues. First, the control flow graph (CFG) of a binary program is needed to compute the WCET and this CFG is built using some internal knowledge of the compiler that generated the binary code; moreover once constructed the CFG has to be manually annotated with loop bounds. Second, the algorithms to compute the WCET (combining Abstract Interpretation and Integer Linear Programming) are tailored for specific architectures: changing the architecture (e.g. replacing an ARM7 by an ARM9) requires the design of a new ad hoc algorithm. Third, the tightness of the computed results (obtained using the available tools) are not compared to actual execution times measured on the real hardware. In this paper we address the above mentioned problems. We first describe a fully automatic method to compute a CFG based solely on the binary program to analyse. Second, we describe the model of the hardware as a product of timed automata, and this model is independent from the program description. The model of a program running on a hardware is obtained by synchronizing (the automaton of) the program with the (timed automata) model of the hardware. Computing the WCET is reduced to a reachability problem on the synchronised model and solved using the model-checker UPPAAL. Finally, we present a rigorous methodology that enables us to compare our computed results to actual execution times measured on a real platform, the ARM920T.},
+    category= {wcet},
+  keywords = {wcet, timed automata},
+  show = {},
+  mywebpage = {wcet}
+}
+
+
+
+@article{bouyer-jlli-2011,
+  author    = {Patricia Bouyer and
+               Franck Cassez and
+               Fran{\c{c}}ois Laroussinie},
+  title     = {Timed Modal Logics for Real-Time Systems - Specification, Verification
+               and Control},
+  journal   = {Journal of Logic, Language and Information},
+  volume    = {20},
+  number    = {2},
+  pages     = {169--203},
+  year      = {2011},
+  Type = {A - Journal},
+  url       = {http://dx.doi.org/10.1007/s10849-010-9127-4},
+  doi       = {10.1007/s10849-010-9127-4},
+  timestamp = {Tue, 12 Apr 2011 09:14:59 +0200},
+  biburl    = {http://dblp.uni-trier.de/rec/bib/journals/jolli/BouyerCL11},
+  bibsource = {dblp computer science bibliography, http://dblp.org},
+  urlpaper = {papers/jlli-2011.pdf},
+  category= {games},
+  mywebpage = {timed},
+  show = {},
+  keywords = {logics, real-time, timed automata, timed games},
+  abstract = {
+  In this paper, a timed modal logic Lc is presented for the specification
+and verification of real-time systems. Several important results for Lc are discussed.
+First we address the model checking problem and we show that it is an EXPTIME-complete problem.
+Secondly we consider expressiveness and we explain how to
+express strong timed bisimilarity and how to build characteristic formulas for timed
+automata. We also propose a compositional algorithm for Lc model checking. Finally
+we consider several control problems for which Lc can be used to check controllability.
+  }
+}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% 2010
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+@inproceedings{DBLP:conf/atva/Cassez10,
+  author    = {Franck Cassez},
+  title     = {The Complexity of Codiagnosability for Discrete Event and Timed Systems (Extended abstract)},
+  booktitle = {Automated Technology for Verification and Analysis - 8th International
+               Symposium, {ATVA} 2010, Singapore, September 21-24, 2010. Proceedings},
+  pages     = {82--96},
+  year      = {2010},
+  editor    = {Ahmed Bouajjani and
+               Wei{-}Ngan Chin},
+  urlpaper = {papers/atva-10.pdf},
+  xxee = {http://arxiv.org/abs/1004.2550},
+  xxurl       = {http://dx.doi.org/10.1007/978-3-642-15643-4_8},
+  doi       = {10.1007/978-3-642-15643-4_8},
+ series    = {Lecture Notes in Computer Science},
+  volume    = {6252},
+   mywebpage = {diagnosis},
+  show = {},
+  publisher = {Springer},
+  keywords = {diagnosis, complexity, timed automata},
+  abstract = {In this paper we study the fault codiagnosis problem for discrete event systems given by finite automata (FA) and timed systems given by timed automata (TA). We provide a uniform characterization of codiagnosability for FA and TA which extends the necessary and sufficient condition that characterizes diagnosability. We also settle the complexity of the codiagnosability problems both for FA and TA and show that codiagnosability is PSPACE-complete in both cases. For FA this improves on the previously known bound (EXPTIME) and for TA it is a new result. Finally we address the codiagnosis problem for TA under bounded resources and show it is 2EXPTIME-complete.},
+        Type = {B - International Conferences},
+
+  }
+
+
+
+@INPROCEEDINGS{cassez-cdc-2010,
+  AUTHOR = {Franck Cassez},
+  TITLE = {{Dynamic Observers for Fault Diagnosis of Timed Systems}},
+  BOOKTITLE = {49th IEEE Conference on Decision and Control and 28th Chinese Control Conference},
+  YEAR = {2010},
+  ADDRESS = {Atlanta},
+  MONTH = DEC,
+  PUBLISHER = {IEEE Computer Society},
+  urlpaper = {papers/cdc-2010.pdf},
+  url_link = {http://arxiv.org/abs/1004.2764},
+  ABSTRACT = { In this paper we extend the work on dynamic observers for
+fault diagnosis  to timed automata. We
+study sensor minimization problems with static observers and
+then address the problem of computing the most permissive
+dynamic observer for a system given by a timed automaton. },
+  mywebpage = {diagnosis},
+  show = {},
+  keywords = {diagnosis, timed automata},
+        Type = {B - International Conferences},
+
+}
+
+
+
+@inproceedings{cassez-fossacs-2010,
+  author    = {Franck Cassez and
+               Ron van der Meyden and
+               Chenyi Zhang},
+               editor    = {C.{-}H. Luke Ong},
+  title     = {The Complexity of Synchronous Notions of Information Flow Security},
+  booktitle = {Foundations of Software Science and Computational Structures, 13th
+               International Conference, {FOSSACS} 2010, Held as Part of the Joint
+               European Conferences on Theory and Practice of Software, {ETAPS} 2010,
+               Paphos, Cyprus, March 20-28, 2010. Proceedings},
+  pages     = {282--296},
+  year      = {2010},
+  volume    = {6014},
+  urlpaper = {papers/fossacs-2010.pdf},
+  publisher = {Springer},
+  series    = {Lecture Notes in Computer Science},
+  doi       = {10.1007/978-3-642-12032-9_20},
+      keywords = {security, interference},
+      Type = {B - International Conferences},
+
+  abstract = {The paper considers the complexity of verifying that a finite state system satisfies a number of definitions of information flow security. The systems model considered is one in which agents operate synchronously with awareness of the global clock. This enables timing based attacks to be captured, whereas previous work on this topic has dealt primarily with asynchronous systems. Versions of the notions of nondeducibility on inputs, nondeducibility on strategies, and an unwinding based notion are formulated for this model. All three notions are shown to be decidable, and their computational complexity is characterised.}
+}
+
+
+
+@article{DBLP:journals/corr/abs-1004-2550,
+  author    = {Franck Cassez},
+  title     = {The Complexity of Codiagnosability for Discrete Event and Timed Systems},
+  journal   = {CoRR},
+  Type = {E - Reports},
+  volume    = {abs/1004.2550},
+  year      = {2010},
+  url       = {http://arxiv.org/abs/1004.2550},
+  timestamp = {Mon, 05 Dec 2011 18:05:32 +0100},
+  biburl    = {http://dblp.uni-trier.de/rec/bib/journals/corr/abs-1004-2550},
+  bibsource = {dblp computer science bibliography, http://dblp.org},
+      keywords = {fault diagnosis, timed automata},
+
+  abstract = {In this paper we study the fault codiagnosis problem for discrete event systems given by finite automata (FA) and timed systems given by timed automata (TA). We provide a uniform characterization of codiagnosability for FA and TA which extends the necessary and sufficient condition that characterizes diagnosability. We also settle the complexity of the codiagnosability problems both for FA and TA and show that codiagnosability is PSPACE-complete in both cases. For FA this improves on the previously known bound (EXPTIME) and for TA it is a new result. Finally we address the codiagnosis problem for TA under bounded resources and show it is 2EXPTIME-complete.}
+}
+
+
+
+@article{DBLP:journals/corr/abs-1004-2764,
+  author    = {Franck Cassez},
+  title     = {A Note on Fault Diagnosis Algorithms},
+  journal   = {CoRR},
+  Type = {E - Reports},
+  volume    = {abs/1004.2764},
+  year      = {2010},
+  url       = {http://arxiv.org/abs/1004.2764},
+  timestamp = {Mon, 05 Dec 2011 18:04:58 +0100},
+  biburl    = {http://dblp.uni-trier.de/rec/bib/journals/corr/abs-1004-2764},
+  bibsource = {dblp computer science bibliography, http://dblp.org},
+      keywords = {fault diagnosis, timed automata},
+
+  abstract = {In this paper we review algorithms for checking diagnosability of discrete-event systems and timed automata. We point out that the diagnosability problems in both cases reduce to the emptiness problem for (timed) B\"uchi automata. Moreover, it is known that, checking whether a discrete-event system is diagnosable, can also be reduced to checking bounded diagnosability. We establish a similar result for timed automata. We also provide a synthesis of the complexity results for the different fault diagnosis problems.}
+}
+
+
+
+@article{DBLP:journals/corr/abs-1004-2810,
+  author    = {Franck Cassez and
+               Stavros Tripakis},
+  title     = {Fault Diagnosis with Dynamic Observers},
+  journal   = {CoRR},
+  Type = {E - Reports},
+  volume    = {abs/1004.2810},
+  year      = {2010},
+  url       = {http://arxiv.org/abs/1004.2810},
+  timestamp = {Mon, 05 Dec 2011 18:05:22 +0100},
+  biburl    = {http://dblp.uni-trier.de/rec/bib/journals/corr/abs-1004-2810},
+  bibsource = {dblp computer science bibliography, http://dblp.org},
+    keywords = {fault diagnosis, timed automata},
+
+  abstract = {In this paper, we review some recent results about the use of dynamic observers for fault diagnosis of discrete event systems. Fault diagnosis consists in synthesizing a diagnoser that observes a given plant and identifies faults in the plant as soon as possible after their occurrence. Existing literature on this problem has considered the case of fixed static observers, where the set of observable events is fixed and does not change during execution of the system. In this paper, we consider dynamic observers: an observer can "switch" sensors on or off, thus dynamically changing the set of events it wishes to observe. It is known that checking diagnosability (i.e., whether a given observer is capable of identifying faults) can be solved in polynomial time for static observers, and we show that the same is true for dynamic ones. We also solve the problem of dynamic observers' synthesis and prove that a most permissive observer can be computed in doubly exponential time, using a game-theoretic approach. We further investigate optimization problems for dynamic observers and define a notion of cost of an observer.}
+}
+
+
+
+@article{DBLP:journals/corr/abs-1006-1951,
+  author    = {Franck Cassez},
+  title     = {Timed Games for Computing Worst-Case Execution-Times},
+  journal   = {CoRR},
+  Type = {E - Reports},
+  volume    = {abs/1006.1951},
+  year      = {2010},
+  url       = {http://arxiv.org/abs/1006.1951},
+  timestamp = {Mon, 05 Dec 2011 18:04:54 +0100},
+  biburl    = {http://dblp.uni-trier.de/rec/bib/journals/corr/abs-1006-1951},
+  bibsource = {dblp computer science bibliography, http://dblp.org},
+    keywords = {wcet, timed automata},
+
+  abstract= {In this paper we introduce a framework for computing upper bounds yet accurate WCET for hardware platforms with caches and pipelines. The methodology we propose consists of 3 steps: 1) given a program to analyse, compute an equivalent (WCET-wise) abstract program; 2) build a timed game by composing this abstract program with a network of timed automata modeling the architecture; and 3) compute the WCET as the optimal time to reach a winning state in this game. We demonstrate the applicability of our framework on standard benchmarks for an ARM9 processor with instruction and data caches, and compute the WCET with UPPAAL-TiGA. We also show that this framework can easily be extended to take into account dynamic changes in the speed of the processor during program execution.}
+}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% 2009
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+@inproceedings{DBLP:conf/atva/CassezDM09,
+  author    = {Franck Cassez and
+               J{\'{e}}r{\'{e}}my Dubreil and
+               Herv{\'{e}} Marchand},
+                 editor    = {Zhiming Liu and
+               Anders P. Ravn},
+  title     = {Dynamic Observers for the Synthesis of Opaque Systems},
+  booktitle = {Automated Technology for Verification and Analysis, 7th International
+               Symposium, {ATVA} 2009, Macao, China, October 14-16, 2009. Proceedings},
+  pages     = {352--367},
+  year      = {2009},
+    series    = {Lecture Notes in Computer Science},
+  volume    = {5799},
+  publisher = {Springer},
+  url       = {http://dx.doi.org/10.1007/978-3-642-04761-9_26},
+  doi       = {10.1007/978-3-642-04761-9_26},
+    urlpaper = {papers/atva-09.pdf},
+  urlslides = {papers/slides-atva-09.pdf},
+        Type = {B - International Conferences},
+
+  ABSTRACT = {   In this paper, we address the problem of synthesizing \emph{opaque}
+  systems by selecting the set of observable
+  events.
+  We first investigate the case of \emph{static}  observability
+  where the set of observable events
+  is fixed a priori.  In this context, we show that checking whether a
+  system is opaque and computing an optimal static observer ensuring
+  opacity are both PSPACE-complete problems.
+  Next, we introduce \emph{dynamic} partial observability where the
+  set of observable events
+  can
+  change over time.
+  We show how to check that a system is opaque \wrt a dynamic observer
+  and also address the corresponding synthesis problem: given a system
+  $G$ and secret states $S$, compute the set of dynamic observers
+  under which $S$ is opaque. Our main result is that the synthesis
+  problem can be solved in EXPTIME.},
+}
+
+
+
+
+@inproceedings{DBLP:conf/cdc/Cassez09,
+  author    = {Franck Cassez},
+  title     = {A note on fault diagnosis algorithms},
+  booktitle = {Proceedings of the 48th {IEEE} Conference on Decision and Control,
+               {CDC} 2009, combined withe the 28th Chinese Control Conference, December
+               16-18, 2009, Shanghai, China},
+  editor    = {Jo{\"{e}}l Ouaknine and
+               Frits W. Vaandrager},
+  pages     = {6941--6946},
+  year      = {2009},
+   publisher = {{IEEE}},
+  year      = {2009},
+  url       = {http://dx.doi.org/10.1109/CDC.2009.5399968},
+  doi       = {10.1109/CDC.2009.5399968},
+  ABSTRACT = {   In this paper we review algorithms for checking diagnosability of
+  discrete-event systems and timed automata. We point out that the
+  diagnosability problems in both cases reduce to the emptiness
+  problem for (timed) B\"uchi automata. Moreover, it is known that,
+  checking whether a discrete-event system is diagnosable, can also be
+  reduced to checking bounded diagnosability. We establish a similar
+  result for timed automata.  We also provide a synthesis of the
+  complexity results for the different fault diagnosis problems.},
+  urlpaper = {papers/cdc-09.pdf},
+  urlslides = {papers/slides-cdc-09.pdf},
+        Type = {B - International Conferences},
+
+  keywords = {diagnosis, timed automata},
+}
+
+
+
+@inproceedings{DBLP:conf/formats/BenattarCLR09,
+  author    = {Gilles Benattar and
+               Franck Cassez and
+               Didier Lime and
+               Olivier H. Roux},
+  title     = {Synthesis of Non-Interferent Timed Systems},
+  booktitle = {Formal Modeling and Analysis of Timed Systems, 7th International Conference,
+               {FORMATS} 2009, Budapest, Hungary, September 14-16, 2009. Proceedings},
+  pages     = {28--42},
+  year      = {2009},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {5813},
+  publisher = {Springer},
+  url       = {http://dx.doi.org/10.1007/978-3-642-04368-0_5},
+  doi       = {10.1007/978-3-642-04368-0_5},
+  urlpaper = {papers/formats-09.pdf},
+  urlslides = {papers/slides-formats-09.pdf},
+   ABSTRACT = {  In this paper, we focus on the synthesis of secure timed systems
+  which are given by timed automata.
+  The security property that the system must satisfy is a
+  \emph{non-interference} property.
+  Various notions of non-interference have been defined in the
+  literature, and in this paper we focus on \emph{Strong
+    Non-deterministic Non-Interference} (SNNI)
+  and we study the two following problems: ($1$) check whether it is
+  possible to enforce a system to be SNNI; if yes ($2$) compute a
+  sub-system which is SNNI.},
+        Type = {B - International Conferences},
+
+  keywords = {security, timed automata}
+}
+
+
+
+@inproceedings{DBLP:conf/hybrid/CassezJLRR09,
+  author    = {Franck Cassez and
+               Jan Jakob Jessen and
+               Kim Guldstrand Larsen and
+               Jean{-}Fran{\c{c}}ois Raskin and
+               Pierre{-}Alain Reynier},
+  editor    = {Rupak Majumdar and
+               Paulo Tabuada},
+  title     = {Automatic Synthesis of Robust and Optimal Controllers - An Industrial
+               Case Study},
+  booktitle = {Hybrid Systems: Computation and Control, 12th International Conference,
+               {HSCC} 2009, San Francisco, CA, USA, April 13-15, 2009. Proceedings},
+  pages     = {90--104},
+  year      = {2009},
+  crossref  = {DBLP:conf/hybrid/2009},
+  url       = {http://dx.doi.org/10.1007/978-3-642-00602-9_7},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {5469},
+  publisher = {Springer},
+  doi       = {10.1007/978-3-642-00602-9_7},
+  urlpaper = {papers/hscc-09.pdf},
+  keywords = {control, synthesis, hybrid automata},
+        Type = {B - International Conferences},
+
+  abstract = { Int his paper,we show how to apply recent tools for the automatic synthesis of robust and near-optimal controllers for a real industrial case study. We show how to use three different classes of models and their supporting existing tools, UPPAAL-TIGA for synthesis, PHAVER for verification, and SIMULINK for simulation, in a complementary way. We believe that this case study shows that our tools have reached a level of maturity that allows us to tackle interesting and relevant industrial control problems.}
+ }
+
+
+
+
+@inproceedings{DBLP:conf/sersc-isa/Cassez09,
+  author    = {Franck Cassez},
+  title     = {The Dark Side of Timed Opacity},
+  editor    = {Jong Hyuk Park and
+               Hsiao{-}Hwa Chen and
+               Mohammed Atiquzzaman and
+               Changhoon Lee and
+               Tai{-}Hoon Kim and
+               Sang{-}Soo Yeo},
+  booktitle = {Advances in Information Security and Assurance, Third International
+               Conference and Workshops, {ISA} 2009, Seoul, Korea, June 25-27, 2009.
+               Proceedings},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {5576},
+  publisher = {Springer},
+  pages     = {21--30},
+  year      = {2009},
+  crossref  = {DBLP:conf/sersc-isa/2009},
+  urlpaper       = {papers/isa-09.pdf},
+  urlslides = {papers/slides-isa-09.pdf},
+        Type = {B - International Conferences},
+
+  doi       = {10.1007/978-3-642-02617-1_3},
+}
+
+
+
+@inbook{cassez-control-iste-2009,
+   author = {Franck Cassez and Markey, Nicolas},
+   title = {Communicating Embedded Systems},
+   editor = {Jard, Claude and Roux, Olivier H.},
+   month = oct,
+   pages = {83--120},
+   publisher = {ISTE Ltd. -- John Wiley \&amp; Sons, Ltd},
+   chapter = {Control of Timed Systems},
+  xxurl = {http://www.iste.co.uk/index.php?ACTION=Browse&amp;CatParent=FUB2},
+   year = {2009},
+  urlpaper = {papers/iste-wiley-book-control.pdf},
+abstract={In this book Chapter we address the problem of controller synthesis for timed systems. By
+timed systems we refer to systems which are subject to quantitative (hard) real-time
+constraints. We assume the reader is familiar with the basics of Timed Automata
+theory, or has read Chapter 1 and Chapter 2 in this book. },
+XXnote={Draft version may differ from published one.},
+      Type = {C - Book Chapters},
+
+}
+
+
+
+@inbook{cassez-diag-iste-2009,
+   author = {Franck Cassez and Tripakis, Stavros},
+   title = {Communicating Embedded Systems},
+   editor = {Jard, Claude and Roux, Olivier H.},
+   month = oct,
+   pages = {120--151},
+   publisher = {ISTE Ltd. -- John Wiley \&amp; Sons, Ltd},
+   chapter = {Fault Diagnosis of Timed Systems},
+  xxurl = {http://www.iste.co.uk/index.php?ACTION=Browse&amp;CatParent=FUB2},
+   year = {2009},
+      Type = {C - Book Chapters},
+
+  urlpaper = {papers/iste-wiley-book-diag.pdf},
+abstract={In this book Chapter, we review the main results pertaining
+                  to the problem of fault diagnosis of timed
+                  automata. Timed automata are introduced in Chapter 1
+                  and Chapter 2 in this book, and the reader not
+                  familiar with this model is invited to read them
+                  first.},
+XXnote={Draft version  may differ from published one.}
+}
+
+
+
+@MISC{cassez-compile-phaver-09,
+  AUTHOR = {Franck Cassez},
+ HOWPUBLISHED = {Short Note, NICTA, Sydney, Australia},
+  KEYWORDS = {PHAVer, OS X},
+  TITLE = {{How to Install PHAVer on Mac OS X}},
+  urlpaper = {papers/install-phaver-09.pdf},
+  YEAR = {2009},
+URL_link={http://www-verimag.imag.fr/~frehse/phaver_web/index.html},
+abstract={This short note explains how to install PHAVer (and the
+                  needed libraries) for a single user on Mac OS X
+                  running Leopard (10.5.6). It might also work for
+                  earlier versions (you can report to me in case of a
+                  successful install on earlier version).},
+ Type = {E - Reports},
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% 2008
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+@proceedings{cassez-formats-2008,
+  editor    = {Franck Cassez and
+               Claude Jard},
+  title     = {Formal Modeling and Analysis of Timed Systems, 6th International Conference,
+               {FORMATS} 2008, Saint Malo, France, September 15-17, 2008. Proceedings},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {5215},
+  publisher = springv,
+  year      = {2008},
+  isbn      = {978-3-540-85777-8},
+          Type = {D - Conference Proceedings},
+
+  timestamp = {Fri, 05 Sep 2008 08:05:45 +0200},
+  biburl    = {http://dblp.uni-trier.de/rec/bib/conf/formats/2008},
+  bibsource = {dblp computer science bibliography, http://dblp.org}
+}
+
+
+
+
+@article{cassez-fi-08,
+  AUTHOR = {Franck Cassez and Tripakis, Stavros},
+  TITLE = {Fault Diagnosis with Static and Dynamic Diagnosers},
+  JOURNAL = {Fundamenta Informaticae},
+  YEAR = {2008},
+    Type = {A - Journal},
+
+  VOLUME = {88},
+  NUMBER = {4},
+  PAGES = {497--540},
+  keywords = {fault diagnosis, automata},
+  MONTH = NOV,
+  ABSTRACT = {We study sensor minimization problems in the context of
+                  fault diagnosis. Fault diagnosis consists in
+                  synthesizing a diagnoser that observes a given plant
+                  and identifies faults in the plant as soon as
+                  possible after their occurrence. Existing literature
+                  on this problem has considered the case of fixed
+                  static observers, where the set of observable events
+                  is fixed and does not change during execution of the
+                  system. In this paper, we consider static observers
+                  where the set of observable events is not fixed, but
+                  needs to be optimized (e.g., minimized in size). We
+                  also consider dynamic observers, where the observer
+                  can ``switc'' sensors on or off, thus dynamically
+                  changing the set of events it wishes to observe. It
+                  is known that checking diagnosability (i.e., whether
+                  a given observer is capable of identifying faults)
+                  can be solved in polynomial time for static
+                  observers, and we show that the same is true for
+                  dynamic ones. On the other hand, minimizing the
+                  number of (static) observable events required to
+                  achieve diagnosability is NP-complete. We show that
+                  this is true also in the case of mask-based
+                  observation, where some events are observable but
+                  not distinguishable. For dynamic observers'
+                  synthesis, we prove that a most permissive
+                  finite-state observer can be computed in doubly
+                  exponential time, using a game-theoretic
+                  approach. We further investigate optimization
+                  problems for dynamic observers and define a notion of
+                  cost of an observer. We show how to compute an
+                  optimal observer using results on mean-payoff games
+                  by Zwick and Paterson.  },
+  urlpaper = {papers/diag-fi-08.pdf},
+}
+
+
+
+@article{BCHLR08-tcs,
+  AUTHOR = {B{\'e}rard, B{\'e}atrice and Franck Cassez and Haddad, Serge and Lime, Didier and Roux, Olivier H.},
+  JOURNAL = {Theoretical Computer Science},
+  PUBLISHER = {Elsevier},
+  VOLUME = 403,
+  NUMBER = {2--3},
+  PAGES = {202--220},
+    Type = {A - Journal},
+
+  TITLE = {When are Timed Automata Weakly Timed Bisimilar to Time {P}etri Nets?},
+  YEAR = {2008},
+  urlpaper = {papers/tcs-2008.pdf},
+  abstract = {In this paper, we compare Timed Automata (TA) and Time Petri Nets (TPN) with respect to weak timed bisimilarity. It is already known that the class of bounded TPNs is strictly included in the class of TA. It is thus natural to try and identify the subclass of TA equivalent to some TPN for the weak timed bisimulation relation. We give a characterization of this subclass and we show that the membership problem and the reachability problem  are PSPACE-complete. Furthermore we show that for a TA in this class with integer constants, an equivalent TPN can be built with integer bounds but with a size exponential w.r.t. the original model. Surprisingly, using rational bounds yields a TPN whose size is linear.}
+}
+
+
+
+
+@INBOOK{ars-petri-nets,
+  AUTHOR = {Cassez, Franck and Roux, Olivier H.},
+  EDITOR = {Kordic, Vedran},
+  TITLE = {Petri Nets -- Theory and Applications},
+  CHAPTER = {From Time Petri Nets to Timed Automata},
+  PUBLISHER = ARS-VIENNA,
+  YEAR = {2008},
+  SERIES = {{I}-Tech {E}ducation {O}nline},
+ URL= {http://intechweb.org/books.php},
+  PAGES = {225--252},
+  PDF = {papers/tpn-book-08.pdf},
+  ISBN = {ISBN 978-3-902613-12-7},
+NOTE={Free download from \url{http://intechweb.org/books.php}.},
+  ABSTRACT = {In this chapter we introduce a formalism, \emph{Time
+                  Petri Nets (TPNs)}, to model real-time systems. We
+                  compare it with another well-known formalism,
+                  \emph{Timed Automata (TA)}, used for specifying
+                  timed systems.  We precisely define the semantics of
+                  TPNs and TA and compare them according to two
+                  criteria: the \emph{languages} (or set of
+                  behaviours) then can generate, and the \emph{trees}
+                  (or branching behaviours) they can generate.  We
+                  show that every TPN can be translated into an
+                  equivalent TA.  Then, we introduce a real-time logic
+                  to specify properties of real-time systems. We show
+                  how to check that a given TPN satisfies a property
+                  written in this logic. For this we use our
+                  translation\footnote{This translation preserves the
+                  properties of this logic.} from TPNs to TA and check
+                  the property on the equivalent TA. Finally we
+                  briefly report on experiments for checking real-time
+                  properties of TPNs using this framework. },
+    Type = {C - Book Chapters},
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% 2007
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+@article{DBLP:journals/entcs/BernotCCDMR07,
+  author    = {Gilles Bernot and
+               Franck Cassez and
+               Jean{-}Paul Comet and
+               Franck Delaplace and
+               C{\'{e}}line M{\"{u}}ller and
+               {Olivier F.} Roux and {Olivier H.} Roux},
+  title     = {Semantics of Biological Regulatory Networks},
+  journal   = {Electr. Notes Theor. Comput. Sci. (Proceedings of FORMATS 2003)},
+  volume    = {180},
+  number    = {3},
+  pages     = {3--14},
+  year      = {2007},
+  url       = {http://dx.doi.org/10.1016/j.entcs.2004.01.038},
+  doi       = {10.1016/j.entcs.2004.01.038},
+  keywords = {bioinformatics, regulatory networks, hybrid systems},
+  abstract ={The aim of the paper is to revisit the model of Biological Regulatory Networks (BRN) which was proposed by René Thomas to model the interactions between a set of genes. We give a formal semantics for BRN in terms of transition systems which formalizes the evolution rules given by René Thomas. Then we show how to use this model to find interesting properties of a BRN like the set of stable states, cycles etc using tools for analyzing transition systems.},
+          Type = {B - International Conferences},
+
+}
+
+
+
+@inproceedings{CassezTA07,
+  author    = {Franck Cassez and
+               Stavros Tripakis and
+               Karine Altisen},
+  title     = {Sensor Minimization Problems with Static or Dynamic Observers for
+               Fault Diagnosis},
+  booktitle = {Seventh International Conference on Application of Concurrency to
+               System Design {(ACSD} 2007), 10-13 July 2007, Bratislava, Slovak Republic},
+  pages     = {90--99},
+  year      = {2007},
+  editor    = {Twan Basten and
+               Gabriel Juh{\'{a}}s and
+               Sandeep K. Shukla},
+  crossref  = {DBLP:conf/acsd/2007},
+  url       = {http://doi.ieeecomputersociety.org/10.1109/ACSD.2007.65},
+  doi       = {10.1109/ACSD.2007.65},
+  publisher = {{IEEE} Computer Society},
+  year      = {2007},
+  keyworfs = {fault diagnosis, automata},
+  urlpaper = {papers/acsd07.pdf},
+          Type = {B - International Conferences},
+
+  urlslides = {papers/slides-acsd-07.pdf},
+  abstract = {We study sensor minimization problems in the context of fault diagnosis. Fault diagnosis consists in synthesizing a diagnoser that observes a given plant and identifies faults in the plant as soon as possible after their occurrence. Existing literature on this problem has considered the case of static observers, where the set of observable events does not change during execution of the system. In this paper, we consider static as well as dynamic observers, where the observer can switch sensors on or off, thus dynamically changing the set of events it wishes to observe.}
+}
+
+
+
+@inproceedings{CassezDLLR07,
+  author    = {Franck Cassez and
+               Alexandre David and
+               Kim Guldstrand Larsen and
+               Didier Lime and
+               Jean{-}Fran{\c{c}}ois Raskin},
+  title     = {Timed Control with Observation Based and Stuttering Invariant Strategies},
+  booktitle = {Automated Technology for Verification and Analysis, 5th International
+               Symposium, {ATVA} 2007, Tokyo, Japan, October 22-25, 2007, Proceedings},
+  pages     = {192--206},
+  year      = {2007},
+          Type = {B - International Conferences},
+
+  editor    = {Kedar S. Namjoshi and
+               Tomohiro Yoneda and
+               Teruo Higashino and
+               Yoshio Okamura},
+   series    = {Lecture Notes in Computer Science},
+  volume    = {4762},
+  publisher = {Springer},
+  urlpaper  = {papers/atva-07.pdf},
+  url_link       = {http://dx.doi.org/10.1007/978-3-540-75596-8_15},
+  doi       = {10.1007/978-3-540-75596-8_15},
+  abstract = {In this paper we consider the problem of controller synthesis for timed games under imperfect information. Novel to our approach is the requirements to strategies: they should be based on a finite collection of observations and must be stuttering invariant in the sense that repeated identical observations will not change the strategy. We provide a constructive transformation to equivalent finite games with perfect infor- mation, giving decidability as well as allowing for an efficient on-the-fly forward algorithm. We report on application of an initial experimental implementation.},
+  keywords = {control, timed automata, partial observation}
+}
+
+
+
+
+@inproceedings{cassez-formats-07,
+  author    = {Franck Cassez},
+  title     = {Efficient On-the-Fly Algorithms for Partially Observable Timed Games},
+  booktitle = {Formal Modeling and Analysis of Timed Systems, 5th International Conference,
+               {FORMATS} 2007, Salzburg, Austria, October 3-5, 2007, Proceedings},
+  pages     = {5--24},
+  year      = {2007},
+  editor    = {Jean{-}Fran{\c{c}}ois Raskin and
+               P. S. Thiagarajan},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {4763},
+          Type = {B - International Conferences},
+
+  publisher = {Springer},
+  urlpaper = {papers/formats-07.pdf},
+  urlslides = {papers/formats-07-slides.pdf},
+  url_link       = {http://dx.doi.org/10.1007/978-3-540-75454-1_3},
+  doi       = {10.1007/978-3-540-75454-1_3},
+  abstract = { In this paper, we review some recent results on the efficient synthesis of controllers for timed systems. We first recall the basics of controller synthesis for timed games and then present an efficient on-the-fly algorithm for reachability games and its extension to partially observable timed games.},
+  keywords = {control, timed automata}
+}
+
+
+
+@inproceedings{DBLP:conf/tase/CassezTA07,
+  author    = {Franck Cassez and
+               Stavros Tripakis and
+               Karine Altisen},
+  title     = {Synthesis Of Optimal-Cost Dynamic Observers for Fault Diagnosis of
+               Discrete-Event Systems},
+  booktitle = {First Joint {IEEE/IFIP} Symposium on Theoretical Aspects of Software
+               Engineering, {TASE} 2007, June 5-8, 2007, Shanghai, China},
+  publisher = {{IEEE} Computer Society},
+   pages     = {316--325},
+  year      = {2007},
+          Type = {B - International Conferences},
+
+  urlpaper = {papers/tase-07.pdf},
+  urlslides = {papers/slides-tase-07.pdf},
+  url_link       = {http://dx.doi.org/10.1109/TASE.2007.51},
+  isbn      = {0-7695-2856-2},
+  doi       = {10.1109/TASE.2007.51},
+  abstract = {Fault diagnosis consists in synthesizing a diagnoser that observes a given plant through a set of observable events, and identifies faults which are not observable as soon as possible after their occurrence. Existing literature on this problem has considered the case of static observers, where the set of observable events does not change during execution of the system. In this paper, we consider dynamic observers, where the observer can switch sensors on or off, thus dynamically changing the set of events it wishes to observe. We define a notion of cost for such dynamic observers and show that (i) the cost of a given dynamic observer can be computed and (ii) an optimal dynamic observer can be synthesized.},
+}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% 2006
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+@article{cassez-jss-06,
+  ABSTRACT = {In this paper, we consider Time Petri Nets (TPN)
+                  where time is associated with transitions. We give a
+                  formal semantics for TPNs in terms of Timed
+                  Transition Systems. Then, we propose a translation
+                  from TPNs to Timed Automata (TA) that preserves the
+                  behavioral semantics (timed bisimilarity) of the
+                  TPNs. For the theory of TPNs this result is
+                  two-fold: i) reachability problems and more
+                  generally TCTL model-checking are decidable for
+                  bounded TPNs; ii) allowing strict time constraints
+                  on transitions for TPNs preserves the results
+                  described in i). The practical appli- cations of the
+                  translation are: i) one can specify a system using
+                  both TPNs and Timed Automata and a precise semantics
+                  is given to the composition; ii) one can use
+                  existing tools for analyzing timed automata (like
+                  Kronos, Uppaal or Cmc) to analyze TPNs. In this
+                  paper we describe the new feature of the tool Romeo
+                  that implements our translation of TPNs in the
+                  Uppaal input format. We also report on experiments
+                  carried out on various examples and compare the
+                  result of our method to state-of-the-art tool for
+                  analyzing TPNs.  },
+  AUTHOR = {Franck Cassez and Roux, Olivier Henri},
+  JOURNAL = {Journal of Software and Systems},
+  Type = {A - Journal},
+  PAGES = {1456--1468},
+  urlpaper = {papers/jss-06.pdf},
+  TITLE = {Structural Translation from Time Petri Nets to Timed Automata},
+  VOLUME = {79},
+  NUMBER = {10},
+  MONTH = OCT,
+  PUBLISHER = {Elsevier},
+  YEAR = {2006},
+  keywords = {Time Petri nets, timed automata, expressiveness}
+}
+
+
+
+
+@inproceedings{DBLP:conf/acsd/AltisenCT06,
+  author    = {Karine Altisen and
+               Franck Cassez and
+               Stavros Tripakis},
+  title     = {Monitoring and fault-diagnosis with digital clocks},
+  booktitle = {Sixth International Conference on Application of Concurrency to System
+               Design {(ACSD} 2006), 28-30 June 2006, Turku, Finland},
+  pages     = {101--110},
+  year      = {2006},
+  publisher = {{IEEE} Computer Society},
+  urlpaper = {papers/acsd06.pdf},
+  urlslides = {papers/slides-acsd-06.pdf},
+  url_link       = {http://dx.doi.org/10.1109/ACSD.2006.10},
+  doi       = {10.1109/ACSD.2006.10},
+          Type = {B - International Conferences},
+
+  abstract = {
+We study the monitoring and fault-diagnosis problems for dense-time real-time systems, where observers (monitors and diagnosers) have access to digital rather than analog clocks. Analog clocks are infinitely-precise, thus, not implementable. We show how, given a specification mod- eled as a timed automaton and a timed automaton model of the digital clock, a sound and optimal (i.e., as precise as possible) digital-clock monitor can be synthesized. We also show how, given plant and digital clock modeled as timed automata, we can check existence of a digital-clock diagnoser and, if one exists, how to synthesize it. Finally, we consider the problem of existence of digital-clock diag- nosers where the digital clock is unknown. We show that there are cases where a digital clock, no matter how precise, does not exist, even though the system is diagnosable with analog clocks. Finally, we provide a sufficient condition for digital-clock diagnosability.},
+  keywords = {fault diagnosis, timed automata, monitoring}
+}
+
+
+
+@inproceedings{DBLP:conf/atva/CassezCJ06,
+  author    = {Franck Cassez and
+               Thomas Chatain and
+               Claude Jard},
+  editor    = {Susanne Graf and
+               Wenhui Zhang},
+  title     = {Symbolic Unfoldings for Networks of Timed Automata},
+  booktitle = {Automated Technology for Verification and Analysis, 4th International
+               Symposium, {ATVA} 2006, Beijing, China, October 23-26, 2006.},
+  pages     = {307--321},
+  year      = {2006},
+          Type = {B - International Conferences},
+
+  series    = {Lecture Notes in Computer Science},
+  volume    = {4218},
+  publisher = {Springer},
+  urlpaper = {papers/unfolding-rr-06.pdf},
+  urlslides = {papers/slides-atva-06.pdf},
+  url_link       = {http://dx.doi.org/10.1007/11901914_24},
+  doi       = {10.1007/11901914_24},
+  abstract = {In this paper we give a symbolic concurrent semantics for network of timed automata (NTA) in terms of extended symbolic nets. Symbolic nets are standard occurrence nets extended with read arcs and symbolic constraints on places and transitions. We prove that there is a complete finite prefix for any NTA that contains at least the information of the simulation graph of the NTA but keep explicit the notions of concurrency and causality of the network.},
+  keywords = {unfoldings, timed automata},
+}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% 2005
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+@article{DBLP:journals/entcs/CassezR05,
+  author    = {Franck Cassez and
+               Olivier H. Roux},
+  title     = {Structural Translation from Time Petri Nets to Timed Automata},
+  journal   = {Electr. Notes Theor. Comput. Sci. (Proceedings of AVOCS 2004)},
+  volume    = {128},
+          Type = {B - International Conferences},
+  number    = {6},
+  pages     = {145--160},
+  year      = {2005},
+  url       = {http://dx.doi.org/10.1016/j.entcs.2005.04.009},
+  doi       = {10.1016/j.entcs.2005.04.009},
+  urlslides = {papers/slides-avocs-04.pdf},
+
+  abstract = {In this paper, we consider Time Petri Nets (TPN) where time is associated with transitions. We give a formal semantics for TPNs in terms of Timed Transition Systems. Then, we propose a translation from TPNs to Timed Automata (TA) that preserves the behavioural semantics (timed bisimilarity) of the TPNs. For the theory of TPNs this result is two-fold: i) reachability problems and more generally TCTL model-checking are decidable for bounded TPNs; ii) allowing strict time constraints on transitions for TPNs preserves the results described in i). The practical applications of the translation are: i) one can specify a system using both TPNs and Timed Automata and a precise semantics is given to the composition; ii) one can use existing tools for analysing timed automata (like Kronos, Uppaal or Cmc) to analyse TPNs.},
+  keywords = {Petri nets, timed, automata},
+}
+
+
+
+@inproceedings{DBLP:conf/atva/BerardCHLR05,
+  author    = {B{\'{e}}atrice B{\'{e}}rard and
+               Franck Cassez and
+               Serge Haddad and
+               Didier Lime and
+               Olivier H. Roux},
+  title     = {Comparison of Different Semantics for Time Petri Nets},
+  booktitle = {Automated Technology for Verification and Analysis, Third International Symposium, {ATVA} 2005, Taipei, Taiwan, October 4-7, 2005, Proceedings},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {3707},
+  publisher = {Springer},
+  pages     = {293--307},
+          Type = {B - International Conferences},
+
+  year      = {2005},
+  urlpaper = {papers/petri-nets-atva05.pdf},
+  url_link       = {http://dx.doi.org/10.1007/11562948_23},
+  doi       = {10.1007/11562948_23},
+  abstract = {In this paper we study the model of Time Petri Nets (TPNs) where a time interval is associated with the firing of a transition, but we extend it by considering general intervals rather than closed ones. A key feature of timed models is the memory policy, i.e. which timing informations are kept when a transition is fired. The original model selects an intermediate semantics where the transitions disabled after consuming the tokens, as well as the firing transition, are reinitialised. However this semantics is not appropriate for some applications. So we consider here two alternative semantics: the atomic and the persistent atomic ones. First we present relevant patterns of discrete event systems which show the interest of these semantics. Then we compare the expressiveness of the three semantics w.r.t. the weak time bisimilarity establishing inclusion results in the general case. Furthermore we show that some inclusions are strict with unrestricted intervals even when nets are bounded. Then we focus on bounded TPNs with upper-closed intervals and we prove that the semantics are equivalent. Finally taking into account both the practical and the theoretical issues, we conclude that persistent atomic semantics should be preferred.},
+  keywords = {Petri nets, semantics, expressiveness}
+}
+
+
+
+@inproceedings{DBLP:conf/concur/CassezDFLL05,
+  author    = {Franck Cassez and
+               Alexandre David and
+               Emmanuel Fleury and
+               Kim Guldstrand Larsen and
+               Didier Lime},
+  title     = {Efficient On-the-Fly Algorithms for the Analysis of Timed Games},
+  booktitle = {{CONCUR} 2005 - Concurrency Theory, 16th International Conference,
+               {CONCUR} 2005, San Francisco, CA, USA, August 23-26, 2005, Proceedings},
+  pages     = {66--80},
+  year      = {2005},
+          Type = {B - International Conferences},
+
+    series    = {Lecture Notes in Computer Science},
+  volume    = {3653},
+  publisher = {Springer},
+  urlpaper = {papers/efficient-control-concur05.pdf},
+  urlslides = {papers/efficient-control-concur05-slides.pdf},
+  url_link       = {http://dx.doi.org/10.1007/11539452_9},
+  doi       = {10.1007/11539452_9},
+  abstract = {In this paper, we propose a first efficient on-the-fly algorithm for solving games based on timed game automata with respect to reachability and safety properties.
+The algorithm we propose is a symbolic extension of the on-the-fly algorithm suggested by Liu &amp; Smolka [15] for linear-time model-checking of finite-state systems. Being on-the-fly, the symbolic algorithm may terminate long before having explored the entire state-space. Also the individual steps of the algorithm are carried out efficiently by the use of so-called zones as the underlying data structure.
+Various optimizations of the basic symbolic algorithm are proposed as well as methods for obtaining time-optimal winning strategies (for reachability games). Extensive evaluation of an experimental implementation of the algorithm yields very encouraging performance results.},
+  keywords = {control, synthesis, timed games},
+}
+
+
+
+@inproceedings{DBLP:conf/concur/BouyerCL05,
+  author    = {Patricia Bouyer and
+               Franck Cassez and
+               Fran{\c{c}}ois Laroussinie},
+  title     = {Modal Logics for Timed Control},
+  booktitle = {{CONCUR} 2005 - Concurrency Theory, 16th International Conference,
+               {CONCUR} 2005, San Francisco, CA, USA, August 23-26, 2005, Proceedings},
+  pages     = {81--94},
+  year      = {2005},
+  crossref  = {DBLP:conf/concur/2005},
+          Type = {B - International Conferences},
+
+  urlpaper = {papers/modal-control-concur05.pdf},
+  urlslides = {papers/slides-concur-05.pdf},
+    url_link       = {http://dx.doi.org/10.1007/11539452_10},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {3653},
+  publisher = {Springer},
+  doi       = {10.1007/11539452_10},
+  abstract = {
+Abstract. In this paper we use the timed modal logic Lnu to specify control objectives for timed plants. We show that the control problem for a large class of objectives can be reduced to a model-checking problem for an extension (Lcont) of the logic Lnu with a new modality.
+More precisely we define a fragment of Lnu, namely Ldet, such that any
+control objective of Lnudet can be translated into a Lcont formula that
+holds for the plant if and only if there is a controller that can enforce
+the control objective.
+We also show that the new modality of Lcont strictly increases the expressive power of Lnu
+while model-checking of Lcont remains EXPTIME-complete.},
+  keywords = {control, synthesis, logics},
+}
+
+
+
+@inproceedings{DBLP:conf/formats/BerardCHLR05,
+  author    = {B{\'{e}}atrice B{\'{e}}rard and
+               Franck Cassez and
+               Serge Haddad and
+               Didier Lime and
+               Olivier H. Roux},
+  title     = {Comparison of the Expressiveness of Timed Automata and Time Petri
+               Nets},
+  booktitle = {Formal Modeling and Analysis of Timed Systems, Third International
+               Conference, {FORMATS} 2005, Uppsala, Sweden, September 26-28, 2005,
+               Proceedings},
+  pages     = {211--225},
+  editor    = {Paul Pettersson and
+               Wang Yi},
+          Type = {B - International Conferences},
+
+ series    = {Lecture Notes in Computer Science},
+  volume    = {3829},
+  publisher = {Springer},
+  year      = {2005},
+  urlpaper = {papers/petri-nets-formats05.pdf},
+  urlslides = {papers/slides-formats-05.pdf},
+  url_link       = {http://dx.doi.org/10.1007/11603009_17},
+  doi       = {10.1007/11603009_17},
+  abstract = { In this paper we consider the model of Time Petri Nets (TPN) where time is associated with transitions. We also consider Timed Automata (TA) as defined by Alur \&amp; Dill, and compare the expressiveness of the two models w.r.t. timed language acceptance and (weak) timed bisimilarity. We first prove that there exists a TA A s.t. there is no TPN (even unbounded) that is (weakly) timed bisimilar to A. We then propose a structural translation from TA to (1-safe) TPNs preserving timed language acceptance. Further on, we prove that the previous (slightly extended) translation also preserves weak timed bisimilarity for a syntactical subclass of TA. For the theory of TPNs, the consequences are: 1) TA, bounded TPNs and 1-safe TPNs are equally expressive w.r.t. timed language acceptance; 2) TA are strictly more expressive than bounded TPNs w.r.t. timed bisimilarity; 3) The subclass bounded and 1-safe TPNs “`a la Merlin” are equally expressive w.r.t. timed bisimilarity.},
+  keywords = {Petri nets, timed automata, expressiveness},
+}
+
+
+
+@inproceedings{DBLP:conf/fsttcs/BerardCHLR05,
+  author    = {B{\'{e}}atrice B{\'{e}}rard and
+               Franck Cassez and
+               Serge Haddad and
+               Didier Lime and
+               Olivier H. Roux},
+        Type = {B - International Conferences},
+
+  title     = {When Are Timed Automata Weakly Timed Bisimilar to Time Petri Nets?},
+  booktitle = {{FSTTCS} 2005: Foundations of Software Technology and Theoretical
+               Computer Science, 25th International Conference, Hyderabad, India,
+               December 15-18, 2005, Proceedings},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {3821},
+  publisher = {Springer},
+  editor    = {Ramaswamy Ramanujam and
+               Sandeep Sen},
+  pages     = {273--284},
+  year      = {2005},
+  urlpaper = {papers/petri-nets-fsttcs05.pdf},
+  url_link       = {http://dx.doi.org/10.1007/11590156_22},
+  doi       = {10.1007/11590156_22},
+  abstract = {In this paper, we compare Timed Automata (TA) with Time Petri Nets (TPN) with respect to weak timed bisimilarity. It is already known that the class of bounded TPNs is included in the class of TA. It is thus natural to try and identify the (strict) subclass T  of TA that is equivalent to TPN for the weak time bisimulation relation. We give a characterisation of this subclass and we show that the membership problem and the reachability problem for T  are PSPACE-complete. Furthermore we show that for a TA in T  with integer constants, an equivalent TPN can be built with integer bounds but with a size exponential w.r.t. the original model. Surprisingly, using rational bounds yields a TPN whose size is linear.},
+  keywords = {Petri nets, timed automata, bisimulation},
+}
+
+
+
+
+@ARTICLE{Cortos-MSR05-control-journal,
+  AUTHOR = {Altisen, Karine and Bouyer, Patricia and Cachat, Thierry and Cassez, Franck and Gardey, Guillaume},
+  JOURNAL = {European Journal of Automated Systems},
+  PAGES = {367-380},
+  VOLUME = {39},
+  NUMBER = {1-2-3},
+  Type = {A - Journal},
+  PUBLISHER = {Herm{\`e}s},
+  TITLE = {Introduction au contrôle des syst{\`e}mes temps-r{\'e}el},
+  urlpaper = {papers/intro-control-msr05.pdf},
+  urlslides ={papers/slides-msr05.pdf},
+  url_link = {http://www.lsv.ens-cachan.fr/aci-cortos},
+  YEAR = {2005},
+  note =  {From {A}ctes du 5{\`e}me {C}olloque sur la {M}od{\'e}lisation des {S}yst{\`e}mes {R}{\'e}actifs ({MSR}'05)},
+  abstract = { In this paper we give a quick overview of the area of control of real-time systems.},
+  keywords = {control, synthesis, timed games},
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% 2004
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+@article{DBLP:journals/entcs/BouyerCFL05,
+  author    = {Patricia Bouyer and
+               Franck Cassez and
+               Emmanuel Fleury and
+               Kim Guldstrand Larsen},
+  title     = {Synthesis of Optimal Strategies Using HyTech},
+  journal   = {Electr. Notes Theor. Comput. Sci. (Proceedings of GDV)},
+  volume    = {119},
+  Type = {B - International Conferences},
+
+  number    = {1},
+  pages     = {11--31},
+  year      = {2004},
+  url       = {http://dx.doi.org/10.1016/j.entcs.2004.07.006},
+  urlslides = {papers/slides-gdv-04.pdf},
+  doi       = {10.1016/j.entcs.2004.07.006},
+  abstract = {Priced timed (game) automata extend timed (game) automata with costs on both locations and transitions. The problem of synthesizing an optimal winning strategy for a priced timed game under some hypotheses has been shown decidable in [P. Bouyer, F. Cassez, E. Fleury, and K.G. Larsen. Optimal strategies in priced timed game automata. Research Report BRICS RS-04-4, Denmark, Feb. 2004. Available at http://www.brics.dk/RS/04/4/]. In this paper, we present an algorithm for computing the optimal cost and for synthesizing an optimal strategy in case there exists one. We also describe the implementation of this algorithm with the tool HyTech and present an example.},
+  keywords = {control, synthesis, priced timed games, optimal},
+}
+
+
+
+@article{DBLP:journals/fuin/CassezPR04,
+  author    = {Franck Cassez and
+               Claire Pagetti and
+               Olivier H. Roux},
+  title     = {A Timed Extension for {ALTARICA}},
+  journal   = {Fundam. Inform.},
+  volume    = {62},
+  number    = {3-4},
+  pages     = {291--332},
+  year      = {2004},
+  urlpapser = {papers/fi-2004.pdf},
+  url_link       = {http://content.iospress.com/articles/fundamenta-informaticae/fi62-3-4-02},
+  ABSTRACT = {  In this paper we present a \emph{timed} extension of the AltaRica
+  formalism.  Following previous works, we first extend the semantics of
+  AltaRica with time and define \emph{timed components} and \emph{timed nodes}.
+  Moreover we lift the \emph{priority features} of AltaRica to the timed
+  case.  We obtain a timed version of AltaRica, called Timed AltaRica. Finally we give
+  a translation of a Timed AltaRica specification into a usual timed automaton.
+  These are the semantic foundations of a high-level hierarchical
+  language for the specification of timed systems.
+},
+ Type = {A - Journal},
+ keywords = {timed automata, semantics},
+ abstract = {},
+}
+
+
+
+@inproceedings{DBLP:conf/fsttcs/BouyerCFL04,
+  author    = {Patricia Bouyer and
+               Franck Cassez and
+               Emmanuel Fleury and
+               Kim Guldstrand Larsen},
+  title     = {Optimal Strategies in Priced Timed Game Automata},
+  booktitle = {{FSTTCS} 2004: Foundations of Software Technology and Theoretical
+               Computer Science, 24th International Conference, Chennai, India, December   16-18, 2004, Proceedings},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {3328},
+  publisher = {Springer},
+
+  pages     = {148--160},
+  year      = {2004},
+  urlpaper = {papers/fsttcs04.pdf},
+  url_link       = {http://dx.doi.org/10.1007/978-3-540-30538-5_13},
+  doi       = {10.1007/978-3-540-30538-5_13},
+  Type = {B - International Conferences},
+  keywords = {control, synthesis, timed games},
+  abstract = {Priced timed (game) automata extend timed (game) automata with costs on both locations and transitions. In this paper we focus on reachability games for priced timed game automata and prove that the optimal cost for winning such a game is computable under conditions concerning the non-zenoness of cost and we prove that it is decidable. Under stronger conditions (strictness of constraints) we prove that in case an optimal strategy exists, we can compute a state-based winning optimal strategy.}
+}
+
+
+
+
+@TECHREPORT{bouyer-brics-04,
+  ABSTRACT = {  Priced timed (game) automata extends timed (game) automata with costs on both locations and transitions. In this paper we focus on
+  reachability games for priced timed game automata and prove that the
+  optimal cost for winning such a game is computable under conditions
+  concerning the
+  non-zenoness of cost. Under stronger conditions (strictness of
+  constraints) we prove in addition that it is decidable whether there
+  is an optimal strategy in which case an optimal strategy can be
+  computed. Our results extend previous decidability result which
+  requires the underlying game automata to be acyclic. Finally, our
+  results are encoded in a first prototype in {\em HyTech} which is applied
+  on a small case-study.},
+  AUTHOR = {Bouyer, Patricia and Cassez, Franck and Fleury, Emmanuel and Larsen, Kim Guldstrand},
+  INSTITUTION = {BRICS, Denmark},
+  LEX = {Da},
+  XXMONTH = FEB,
+  NOTE = {ISSN 0909-0878},
+  CATEGORY = {control},
+  NUMBER = {RS-04-0},
+  TITLE = {{Optimal Strategies in Priced Timed Game Automata}},
+  TYPE = {E - Reports},
+  URL = {http://www.brics.dk/RS/04/4/},
+  YEAR = {2004},
+
+}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% 2003
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+@INPROCEEDINGS{pagetti-facs-2003,
+  ABSTRACT = { In this paper we present a timed extension of the AltaRica language,
+  Timed AltaRica, and describe the architecture of a compiler from Timed AltaRica to timed
+  automata. We present the features of the language, namely
+  modularity, hierarchical modeling and reuse of components during the
+  specification phase, on an  avionics example. Then, we use the
+  compiler from Timed AltaRica to Timed Automata to check some safety properties
+  on the system.},
+  AUTHOR = {Pagetti, Claire and Cassez, Franck and Roux, {Olivier F.}},
+  BOOKTITLE = {Formal Aspects of Component Software (FACS'03)},
+  MONTH = SEP,
+  NOTE = {Pisa, Italy, September 8--9, 2003},
+  PAGES = {63--80},
+  PDF = {papers/facs-03.pdf},
+  PUBLISHER = {UNU/IIST, Macau},
+  TITLE = {{Hierarchical Modeling and Verification of Timed Systems in Timed {AltaRica}}},
+  urlpaper = {papers/facs-03.pdf},
+  url_link = {http://www.iist.unu.edu/newrh/III/1/docs/techreports/report284.html},
+  YEAR = {2003},
+  Type = {B - International Conferences},
+  keywords = {timed automata, semantics, components},
+}
+
+
+
+
+@INPROCEEDINGS{msr-03,
+  AUTHOR = {Cassez, Franck and Roux, {Olivier H.}},
+  BOOKTITLE = {4$\textit{\`eme}$ Colloque Francophone sur la Mod{\'e}lisation des Syst{\`e}mes R{\'e}actifs, (MSR'03)},
+  urlpaper = {papers/ri-msr-03.pdf},
+  TITLE = {{From Time Petri Nets to Timed Automata}},
+  YEAR = {2003},
+  ABSTRACT = {
+ In this paper, we consider Time Petri Nets (TPN) where time is
+  associated with transitions. We give a formal semantics for TPNs in
+  terms of Timed Transition Systems.  Then, we propose a translation
+  from TPNs to Timed Automata (TA) that preserves the behavioural
+  semantics (timed bisimilarity) of the TPNs.  For the theory of TPNs
+  this result is two-fold: i) reachability problems and more generally
+  TCTL model-checking are decidable for bounded TPNs; ii) allowing
+  strict time constraints on transitions for TPNs preserves the
+  results described in i).  The practical applications of the
+  translation are: i) one can specify a system using both TPNs and
+  Timed Automata and a precise semantics is given to the composition;
+  ii) one can use existing tools for analysing timed automata (like
+  KRONOS or UPPAAL or CMC) to analyse TPNs.
+},
+  Type = {B - International Conferences}
+}
+
+
+
+@MISC{cassez-etr-03,
+  AUTHOR = {Cassez, Franck},
+  HOWPUBLISHED = {Actes de l'\'ecole d'\'et\'e ETR'03},
+  XXMONTH = SEP,
+  urlpaper = {papers/verif-qualit-etr-03.pdf},
+  urlslides = {papers/slides-etr-03.pdf},
+  keywords = {verification, logics},
+  TITLE = {{V\'erification qualitative -- {Model-Checking} et Logiques Temporelles}},
+  YEAR = {2003},
+abstract = {In this paper we give a quick overview of the area of modelling and verification of concurrent systems. We take transition systems as the basic model of concurrent systems, and introduce the temporal logics LTL and CTL. Moreover we give some hints for the model-checking algorithms for LTL and CTL.},
+Type = {E - Reports},
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% 2002
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+@inproceedings{amast-98,
+  author    = {Sutre, Grégoire  and
+                Finkel, Alain and
+                Roux, {Olivier F.} and
+                Cassez, Franck},
+  title     = {Effective Recognizability and Model Checking of Reactive
+               {FIFFO} Automata},
+  booktitle = {Algebraic Methodology and Software Technology, 7th International
+               Conference, AMAST '98},
+  year      = {1998},
+  pages     = {106-123},
+  ee        = {http://dx.doi.org/10.1007/3-540-49253-4_10},
+  crossref  = {DBLP:conf/amast/1998},
+  bibsource = {DBLP, http://dblp.uni-trier.de},
+  Type = {B - International Conferences},
+
+}
+
+
