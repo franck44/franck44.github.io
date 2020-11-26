@@ -14,17 +14,5 @@ This paper is about the number 1. The number 2 is left for future work.
 
 Recommended citation: Your Name, You. (2009). "Paper Title Number 1." <i>Journal 1</i>. 1(1).
 
-<div class="contant_1">
-      <!-- <div class="contant_1_left"> -->
+<script src="http://bibbase.org/show?bib=http%3A%2F%2Fscience.mq.edu.au%2F%7Efcassez%2Fbib%2Ffranck-bib.bib&jsonp=1&group0=year&css=true&show=true"></script>
 
-        <!-- real content -->
-        <div class="description">
-          <div class="bibbase">
-            <script src="http://bibbase.org/show?bib=http%3A%2F%2Fscience.mq.edu.au%2F%7Efcassez%2Fbib%2Ffranck-bib.bib&jsonp=1&group0=year&css=true&show=true"></script>
-          </div>
-
-        </div>    <!-- description -->
-      </div>  <!-- contant_1_left -->
-    <!-- </div> contant_1 -->
-
-</div>
