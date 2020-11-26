@@ -88,9 +88,9 @@ author:
   pubmed           : # ""
   googlescholar    : "http://https://scholar.google.com/citations?user=raKoMyIAAAAJ&hl=en"
   email            :
-  researchgate     :  "https://www.researchgate.net/profile/Franck_Cassez" # example: "https://www.researchgate.net/profile/yourprofile"
+  researchgate     : "https://www.researchgate.net/profile/Franck_Cassez" # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
-  bitbucket        :  "https://bitbucket.org/franck44/"
+  bitbucket        : "https://bitbucket.org/franck44/"
   codepen          :
   dribbble         :
   flickr           :
@@ -168,7 +168,7 @@ kramdown:
   auto_ids: true
   footnote_nr: 1
   entity_output: as_char
-  toc_levels: 1..6
+  toc_levels: 1
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
