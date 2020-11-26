@@ -8,14 +8,11 @@ redirect_from:
   - /about.html
 ---
 
-Current Role and Profile
-=========
-
 I am a computer scientist with interest in **formal methods**,  more specifically automated verification techniques such as software verification and model-checking, static analysis. 
 My background is **theoretical computer science** but I have also developed some software (static analysis tools), Scala packages (SMT-solvers, finite automata), Dafny verified programs.
 
-Experience 
-=====
+Experience
+=========
 
 I am currently work at ConsenSys Software R&D as an Applied Researcher, and the main projecta I am involved in are:
 
