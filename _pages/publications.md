@@ -21,6 +21,11 @@ yet another one:
  <script src="https://bibbase.org/show?bib=https://franck44.github.io/franck-pubs.bib&jsonp=1"></script>
 
 
+
+try include from the pub folder:
+
+ <script src="https://bibbase.org/show?bib=https://franck44.github.io/publications/franck-pubs.bib&jsonp=1"></script>
+
 {% if author.googlescholar %}
   You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
 {% endif %}
