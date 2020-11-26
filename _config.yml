@@ -13,7 +13,7 @@ name                     : &name "Franck Cassez"
 description              : &description "computer scientist"
 url                      : https://franck44.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/franck44.github.io"
+repository               : "franck44/franck44.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
