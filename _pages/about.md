@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "About me"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-About me
+Current Role and Profile
 =========
 
 I am a computer scientist with interest in **formal methods**,  more specifically automated verification techniques such as software verification and model-checking, static analysis. 
