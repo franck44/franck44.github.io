@@ -85,10 +85,10 @@ author:
   bio              : "Your cool biography for the left-hand sidebar"
   location         : "Sydney, Australia"
   employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "http://yourfullgooglescholarurl.com"
+  pubmed           :  
+  googlescholar    : "https://scholar.google.com/citations?user=raKoMyIAAAAJ&hl=en"
   email            :
-  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
+  researchgate     : "https://www.researchgate.net/profile/Franck_Cassez"
   uri              :
   bitbucket        :
   codepen          :
