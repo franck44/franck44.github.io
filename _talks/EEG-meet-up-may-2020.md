@@ -3,8 +3,8 @@ title: "Verification of Eth2.0 in Dafny"
 collection: talks
 type: "Talk"
 permalink: /talks/EEG-meet-up-2020
-venue: "Ethereum Engineering Meetup"
-date: 2012-03-01
+venue: "Ethereum Engineering Group Meetup"
+date: 2020-05-13
 location: "Sydney, Australi"
 ---
 
