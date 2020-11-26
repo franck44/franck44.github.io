@@ -6,9 +6,7 @@ author_profile: true
 ---
 
 
-<script>
-alert('Hello');
-</script>
+<script src="https://bibbase.org/show?bib=http%3A%2F%2Ffranck44.github.io%2F%7Epublications/franck-pubs.bib&jsonp=1&group0=year&css=true&show=true"></script>
 
 
 {% if author.googlescholar %}
