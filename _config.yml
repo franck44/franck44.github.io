@@ -82,11 +82,11 @@ analytics:
 author:
   name             : "Franck C."
   avatar           : "biophoto.jpg"
-  bio              : "Your biography for the left-hand sidebar"
+  bio              : "Your cool biography for the left-hand sidebar"
   location         : "Location"
   employer         :
   pubmed           : # ""
-  googlescholar    : "http://https://scholar.google.com/citations?user=raKoMyIAAAAJ&hl=en"
+  googlescholar    : "https://scholar.google.com/citations?user=raKoMyIAAAAJ&hl=en"
   email            :
   researchgate     : "https://www.researchgate.net/profile/Franck_Cassez" # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
