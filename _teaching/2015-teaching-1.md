@@ -8,6 +8,8 @@ date: 2018-01-01
 location: "Sydney, Australia"
 ---
 
+Years taught: 2014 to 2018.
+
 Advanced algorithms design including:
 
 - **program verification**,
