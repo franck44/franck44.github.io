@@ -8,7 +8,7 @@ date: 2020-05-13
 location: "Sydney, Australia"
 ---
 
-Here is a recent youtube video with a presentation 
+A youtube video with a presentation on our formal verification of the Eth2.0 specs. 
 
 [![EEG Meet-up Dafny](EEG-Meetup-Dafny.jpg)](https://www.youtube.com/watch?v=UCSwkUQO_no "EEG: Verification of Eth2.0 using Dafny")
 
