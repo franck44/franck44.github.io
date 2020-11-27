@@ -5,6 +5,7 @@ permalink: /conferences/
 author_profile: true
 ---
 
+I have been actively involved in the formal methods research community for a number of years in the form of various activities.
 # Organisation of conferences
 
 I have organised several international conferences and summer schools including:
