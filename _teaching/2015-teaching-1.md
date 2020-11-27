@@ -4,7 +4,7 @@ collection: teaching
 type: "Post Graduate (Master) Course"
 permalink: /teaching/2015-teaching-1
 venue: "Macquarie University, Department of Computing"
-date: 2018
+date: 2018-01-01
 location: "Sydney, Australia"
 ---
 

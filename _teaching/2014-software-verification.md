@@ -2,9 +2,9 @@
 title: "Algorithmic Verification"
 collection: teaching
 type: "Under and Post graduate level"
-permalink: /teaching/2015-spring-teaching-1
+permalink: /teaching/2014-software-verification
 venue: "University of New South Wales, Computer Science Department"
-date: 2014
+date: 2014-01-10
 location: "Sydney, Australia"
 ---
 
