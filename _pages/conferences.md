@@ -9,10 +9,10 @@ I have been actively involved in the formal methods research community for a num
 # Organisation of conferences
 
 I have organised several international conferences and summer schools including:
-- the [MOVEP](https://www-verimag.imag.fr/MOVEP-2020.html?lang=) (Modelling and Verification of Parallel Processes) series. I started this summer school and orgnised it from 1998 to 2004; I organised the edition of a [textbook](https://www.springer.com/gp/book/9783540427872) published by Springer following the 2000 (millenium!) edition. After 20 years MOVEP is still going!
+- the [MOVEP](https://www-verimag.imag.fr/MOVEP-2020.html?lang=) (Modelling and Verification of Parallel Processes) series. I started this summer school and organised it from 1998 to 2004; I organised the edition of a [textbook](https://www.springer.com/gp/book/9783540427872) published by Springer following the 2000 (millenium!) edition. After 20 years MOVEP is still going!
 - [FORMATS 2008](http://formats08.inria.fr), The 6th International Conference on Formal Modelling and Analysis of Timed Systems. FORMATS (sometimes co-located with QEST) is a leading conference in the area of modelling techniques and tools for timed systems.
-- SSV 2012 (webpage has apparently been re-purposed) but the [proceedings](https://arxiv.org/abs/1211.5873) are still available 
-- [ATVA 2014](https://link.springer.com/conference/atva). ATVA (International Symposium on Automated Technology for Verification and Analysis) is a leading venue in the area of software verification technology.
+- SSV 2012 (webpage has apparently been re-purposed) but the [proceedings](https://arxiv.org/abs/1211.5873) are still available,
+- [ATVA 2014](https://link.springer.com/conference/atva), the (International Symposium on Automated Technology for Verification and Analysis) is a leading venue in the area of software verification technology.
 
 # Program Committees 
 
