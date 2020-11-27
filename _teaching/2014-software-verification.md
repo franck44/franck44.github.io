@@ -8,6 +8,8 @@ date: 2014-01-10
 location: "Sydney, Australia"
 ---
 
+Teaching Years: 2012 to 2015.
+
 Introduction to algorithmic verification including:
 
 - **automata** (finite and Buchi) theory,
