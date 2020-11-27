@@ -12,7 +12,8 @@ Teaching Years: 2014 to 2018.
 
 Advanced algorithms design including:
 
-- **program verification**,
-- **automata theory**,
 - **lattice and fixpoint theory**,
+- **dataflow analysis** (and slicing),
+- **software verification techniques**,
+- **automata theory**,
 - **model-checking**
