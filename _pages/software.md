@@ -1,4 +1,5 @@
 ---
+layout: archive
 permalink: /sw/
 title: "Software"
 author_profile: true
