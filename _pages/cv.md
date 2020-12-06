@@ -11,49 +11,47 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+
+* September 2007: “Habilitation à Diriger les Recherches” (HDR), University of Nantes (France). 
+
+* March 1993: PhD in Computer Science, École Centrale de Nantes & University of Nantes, France.
+
+September 1990: MSc in Computer Science, University of Nantes & École Centrale de Nantes, France.
+
+June 1990: Graduated from  École Centrale de Nantes (France), French engineering Degree (“Grande ´Ecole”), specialisation in Computer Science and Data Processing, summa cum laude.
+
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-  
+* July 2019 to present: Applied Researcher, PegaSys/ConsenSys.
+
+* January 2015 to July 2019: Associate Professor, Department of Computing, Macquarie University. Software Engineering program director.
+
+* February 2012 to December 2014: Principal Researcher at NICTA (Sydney, Neville Roach Laboratory); Conjoint Associate Professor at UNSW (appointed June 2012). I was working 80% of my time for Red Lizards (a NICTA spin-off) developping the static tool Goanna acquired by Synopsis in 2015.
+
+* September 2010 to August 2011: Marie Curie Research Fellow and Research Scientist at the French National Centre for Scientiﬁc Research (CNRS). I was with the Institut de Recherche en Communication et Cybern´etique de Nantes (IRCCyN), France.
+
+* September 2008 to August 2010: Marie Curie Research Fellow and Research Scientist at CNRS. Seconded to NICTA, Sydney, Australia.
+
+* October 1997 to August 2008: Research Scientist at CNRS. I was with the Institut de Recherche en Communication et Cybern´etique de Nantes (IRCCyN), France.
+
+* September 1993 to September 1997: Assistant Professor, Department of Computer Science, University of Western Brittany, Brest, France.
+
+* October 1990 to August 1993: PhD Research Fellow, CNRS (3-year scholarship).
+
+
+
+
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Problem solving
+* Formal Methods
+  * Program verification
+  * Model-checking (finite, infinite, timed systems)
+  * Static analysis
+* Software Development
+  * Scala
+  * Dafny
 
-Publications
-======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+
