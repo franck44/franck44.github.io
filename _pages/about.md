@@ -26,10 +26,10 @@ Before joining ConsenSys, I worked as a research scientist/academic for 25 years
 Professional Memberships
 ======
 
-I am a member of thr ACM since 2008, and was an IEEE Member from 2009 to 2014.
+I have been an [ACM](https://www.acm.org) member since 2008, and was an IEEE Member from 2009 to 2014.
 I am a **Marie Curie Fellow**, was awarded a Marie Curie Fellowship (an individual EU research excellence competitive research grant) in 2008--2011. 
 
 Publications
 =====
-I have published more than 90 research papers in peer-reviewed journals & conferences, 1 US patent and several software packages.
+I have published more than 80 research papers in peer-reviewed journals & conferences, 1 US patent and several software packages.
 I am serving regularly on program committees of top-tier conferences including:
