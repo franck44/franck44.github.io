@@ -2,9 +2,7 @@
 permalink: /sw/
 title: "Software"
 author_profile: true
-redirect_from: 
-  - /sw/
-  - /sw.html
+
 ---
 
 Here is a list of some recent open-source software development I have been involved in:
