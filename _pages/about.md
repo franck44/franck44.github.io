@@ -31,5 +31,5 @@ I am a **Marie Curie Fellow**, was awarded a Marie Curie Fellowship (an individu
 
 Publications
 =====
-I have published more than 80 research papers in peer-reviewed journals & conferences, 1 US patent and several software packages.
-I am serving regularly on program committees of top-tier conferences including:
+I have published more than 80 research papers [(DBLP entries)](https://dblp.org/pid/99/622.html) in peer-reviewed journals & conferences, 1 US patent and several software packages.
+I serveg regularly on program committees of top-tier conferences.

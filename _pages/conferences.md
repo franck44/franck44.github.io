@@ -20,6 +20,8 @@ I regularly serve on Program Committees (PC) of international conferences and
 reviewer for journals.
 
 Here is a list of interesting venues I was invited to serve on the PC for: 
+
+[ATVA 2021](https://formal-analysis.com/atva/2021/),
 [ICFEM 2020](https://formal-analysis.com/icfem/2020/),
 [GandALF 2020](https://di.ulb.ac.be/verif/gandalf2020/),
 [HCVS 2020](https://www.sci.unich.it/hcvs20/),
