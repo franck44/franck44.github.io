@@ -15,7 +15,7 @@ I have contributed several important results in the theoretical foundations of v
 Experience
 =========
 
-I am currently work at ConsenSys Software R&D as an Applied Researcher, and the main projects I am involved in are:
+I currently work at ConsenSys Software R&D as an Applied Researcher, and the main projects I am involved in are:
 
 - **formal specification and verification of the Eth2.0 Phase 0 specification (Beacon chain)**. We use the verification-aware programming language **Dafny** to formally (i.e. rigorously and mathematically) [verify the  Eth2 specification](https://github.com/ConsenSys/eth2.0-dafny).
 
