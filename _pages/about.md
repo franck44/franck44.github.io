@@ -15,7 +15,7 @@ I have contributed several important results in the theoretical foundations of v
 Experience
 =========
 
-I am currently work at ConsenSys Software R&D as an Applied Researcher, and the main projects I am involved in are:
+I currently work at ConsenSys Software R&D as an Applied Researcher, and the main projects I am involved in are:
 
 - **formal specification and verification of the Eth2.0 Phase 0 specification (Beacon chain)**. We use the verification-aware programming language **Dafny** to formally (i.e. rigorously and mathematically) [verify the  Eth2 specification](https://github.com/ConsenSys/eth2.0-dafny).
 
@@ -32,4 +32,4 @@ I am a **Marie Curie Fellow**, was awarded a Marie Curie Fellowship (an individu
 Publications
 =====
 I have published more than 80 research papers [(DBLP entries)](https://dblp.org/pid/99/622.html) in peer-reviewed journals & conferences, 1 US patent and several software packages.
-I serveg regularly on program committees of top-tier conferences.
+I serve regularly on program committees of top-tier conferences.
