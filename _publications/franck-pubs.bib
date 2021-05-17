@@ -165,22 +165,28 @@ and {Anthony M.} Sloane},
 }
 
 
-
-@Article{zheng-2017,
- journal = {ACM Transactions on Embedded Computing Systems},
- author={Zheng, Xi and Christine Julien and {Rodion M.} Podorozhny  and Franck Cassez and Hongxu, Chen},
- title={Real-Time Simulation Support for Runtime Verification of Cyber-Physical Systems},
- year = {2017},
- xxissn = {1539-9087},
- xxvolume = {16},
- xxnumber = {2},
- xxissue_date = {March 2017},
- publisher = {ACM},
- address = {New York, NY, USA},
-xxkey = {{$\!\!$}} ,
-note={forthcoming}
+@article{DBLP:journals/tecs/ZhengJCPC17,
+  author    = {Xi Zheng and
+               Christine Julien and
+               Hongxu Chen and
+               Rodion M. Podorozhny and
+               Franck Cassez},
+  title     = {Real-Time Simulation Support for Runtime Verification of Cyber-Physical
+               Systems},
+  journal   = {{ACM} Trans. Embed. Comput. Syst.},
+  volume    = {16},
+  number    = {4},
+  abstract={
+    In Cyber-Physical Systems (CPS), cyber and physical components must work seamlessly in tandem. Runtime verification of CPS is essential yet very difficult, due to deployment environments that are expensive, dangerous, or simply impossible to use for verification tasks. A key enabling factor of runtime verification of CPS is the ability to integrate real-time simulations of portions of the CPS into live running systems. We propose a verification approach that allows CPS application developers to opportunistically leverage real-time simulation to support runtime verification. Our approach, termed BraceBind, allows selecting, at runtime, between actual physical processes or simulations of them to support a running CPS application. To build BraceBind, we create a real-time simulation architecture to generate and manage multiple real-time simulation environments based on existing simulation models in a manner that ensures sufficient accuracy for verifying a CPS application. Specifically, BraceBind aims to both improve simulation speed and minimize latency, thereby making it feasible to integrate simulations of physical processes into the running CPS application. BraceBind then integrates this real-time simulation architecture with an existing runtime verification approach that has low computational overhead and high accuracy. This integration uses an aspect-oriented adapter architecture that connects the variables in the cyber portion of the CPS application with either sensors and actuators in the physical world or the automatically generated real-time simulation. Our experimental results show that, with a negligible performance penalty, our approach is both efficient and effective in detecting program errors that are otherwise only detectable in a physical deployment.
+  },
+  pages     = {106:1--106:24},
+  year      = {2017},
+  url       = {https://doi.org/10.1145/3063382},
+  doi       = {10.1145/3063382},
+  timestamp = {Fri, 09 Apr 2021 18:25:32 +0200},
+  biburl    = {https://dblp.org/rec/journals/tecs/ZhengJCPC17.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
 }
-
 
 
 @misc{cassez2017analysis,
@@ -189,6 +195,9 @@ note={forthcoming}
   url={https://www.google.com/patents/US9760469},
   year={2017},
   mywebpage = {soft-verif},
+  abstract={
+  This disclosure relates to the analysis of a program based on source code where the source code comprises a call to a function associated with a function implementation. A processor determines, based on a summary that over-approximates the function, an assignment of an input variable and an output variable of the function call to reach a predefined state. The processor then determines, based on the implementation of the function whether the assignment of the input variable results in the assignment of the output variable. If it does not, the processor determines a narrowed summary for the function such that the narrowed summary over-approximates the function and excludes the assignment of the input variable and the output variable. Finally, the processor stores the narrowed summary on a datastore. Inlining of function code and unfolding of loops is avoided and parallel processing of multiple functions is possible.
+  },
   keywords = {software verification},
   category = {soft-verif},
   month=sep # "~12",
