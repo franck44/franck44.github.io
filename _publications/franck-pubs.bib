@@ -66,6 +66,8 @@ All of the algorithms proposed have been implemented and we have conducted a ser
                Thierry Rakotoarivelo},
   title     = {Efficient and Scalable Runtime Monitoring for Cyber-Physical System},
   journal   = {{IEEE} Syst. J.},
+  abstract={
+  Our reliance on cyber-physical systems (CPSs) is increasingly widespread, but scalable methods for the analysis of such systems remain a significant challenge. Runtime verification of CPSs provides a reasonable middle ground between formal verification and simulation approaches, but it comes with its own challenges. A runtime verification system must run directly on the deployed application. In the CPS domain, it is therefore critical that a runtime verification system exhibits low overhead and good scalability so that the verification does not interfere with the analyzed CPS application. In this paper, we introduce Brace, a runtime verification system whose focus is on ensuring these performance qualities for applications in the CPS domain. Brace strives to bound the computation overhead for CPS runtime verification while preserving a high level of monitoring accuracy in terms of the number of false positive and false negative reports. Brace is particularly suitable to systems in which scheduling is distributed across networked CPS components. We evaluate Brace to determine how effectively and efficiently it can detect injected errors in two existing real-life CPS applications with distributed scheduling. Our results demonstrate that Brace efficiently detects those errors and a few true bugs and is able to bound both the memory and computation overhead even in systems with large numbers of observed events.},
   volume    = {12},
   number    = {2},
   pages     = {1667--1678},
